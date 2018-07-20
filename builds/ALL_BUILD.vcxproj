@@ -1,0 +1,247 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="MinSizeRel|Win32">
+      <Configuration>MinSizeRel</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="RelWithDebInfo|Win32">
+      <Configuration>RelWithDebInfo</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{AC3E15B4-8273-3B9F-A9D1-A52EAF43084C}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <Keyword>Win32Proj</Keyword>
+    <Platform>Win32</Platform>
+    <ProjectName>ALL_BUILD</ProjectName>
+    <VCProjectUpgraderObjectName>NoUpgrade</VCProjectUpgraderObjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'" Label="Configuration">
+    <ConfigurationType>Utility</ConfigurationType>
+    <CharacterSet>MultiByte</CharacterSet>
+    <PlatformToolset>v141</PlatformToolset>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+    <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">$(Platform)\$(Configuration)\$(ProjectName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
+    <Midl>
+      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
+      <HeaderFileName>%(Filename).h</HeaderFileName>
+      <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
+      <InterfaceIdentifierFileName>%(Filename)_i.c</InterfaceIdentifierFileName>
+      <ProxyFileName>%(Filename)_p.c</ProxyFileName>
+    </Midl>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
+      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+      <Name>ZERO_CHECK</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{FF2BFC20-0D4E-3080-A9A9-176629DFE6ED}</Project>
+      <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{903DD54B-7AAC-3A33-9D48-C95AEEFA0994}</Project>
+      <Name>BulletCollision</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{FD6DB71B-1066-308A-A198-2DE1B78B9B3C}</Project>
+      <Name>BulletDynamics</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{76E4B076-6E2A-3A24-A584-61E256846E85}</Project>
+      <Name>BulletSoftBody</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\GLEW_1130.vcxproj">
+      <Project>{E5E8CD3B-1ED3-3685-ACB2-24245C00D84F}</Project>
+      <Name>GLEW_1130</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{B391A4EF-10B5-35DF-9322-D1C58DBC9162}</Project>
+      <Name>LinearMath</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{5D23CE8C-BAB8-30A1-AA14-628BABB49713}</Project>
+      <Name>assimp</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{B9511D96-6B6F-352A-9838-6D20A2F32E85}</Project>
+      <Name>boing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{F4EBB9D8-B0F0-3720-96A1-666194C40E7F}</Project>
+      <Name>clipboard</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{FAFA565B-34F7-3092-BF59-374051047E10}</Project>
+      <Name>cursor</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{9AF67E65-DEC7-3026-A56F-52BD7F0C2141}</Project>
+      <Name>empty</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{22C69266-EB6D-38C0-990F-952A634F6F0D}</Project>
+      <Name>events</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{AD574FF3-B496-394A-8149-422A974C4067}</Project>
+      <Name>gamma</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{1BF5682F-58F3-3701-9041-68CC68B7FAC4}</Project>
+      <Name>gears</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{5ED00990-A93A-3DD0-8AB0-85189688AE7F}</Project>
+      <Name>glfw</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{7CB028CC-933F-3CA7-A606-4DAE829EEF8C}</Project>
+      <Name>glfwinfo</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{FDEC92A3-7997-3F9F-9944-DFC7B766E4C6}</Project>
+      <Name>heightmap</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{D7194111-550E-3D0A-9836-15D45A955042}</Project>
+      <Name>iconify</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{FE7886F2-90D1-33FE-B1DC-E910F39FB9DF}</Project>
+      <Name>joysticks</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{81830EFA-9BF0-3D79-83CB-E0A24CEA0837}</Project>
+      <Name>monitors</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{A7B6E2A3-41FC-3581-B00B-F248CFC50CC0}</Project>
+      <Name>msaa</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{F2409D1C-C5E1-3841-B36F-397295C37519}</Project>
+      <Name>particles</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{FF169620-B3FF-34F5-A033-B49BCA851AF9}</Project>
+      <Name>reopen</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{654E05D0-C6F5-3475-9EBC-D1C2A9C0D675}</Project>
+      <Name>sharing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{7C803563-3389-3849-B3A1-64EA6793809F}</Project>
+      <Name>simple</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\snake.vcxproj">
+      <Project>{9217CCD6-6BE8-3447-8CF1-605B535E1942}</Project>
+      <Name>snake</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{D626E73E-9FF0-3BAC-AE35-7A4972599165}</Project>
+      <Name>splitview</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{0AF19ABC-8475-3187-B0E4-C5463F0A43D7}</Project>
+      <Name>tearing</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{646EB19F-B70C-3321-8603-67B76DF57410}</Project>
+      <Name>threads</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{997A7018-963A-305A-B513-2ACD184252CF}</Project>
+      <Name>title</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{5970C29B-0CDF-3D4A-B8DD-431FC134BA26}</Project>
+      <Name>wave</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{7874A4FF-5954-3FCF-8C6A-2F27A7D975C2}</Project>
+      <Name>windows</Name>
+    </ProjectReference>
+    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{D99AB0F4-CA8D-31F5-9F95-2520BDC7C7CF}</Project>
+      <Name>zlib</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

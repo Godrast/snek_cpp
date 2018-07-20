@@ -1,0 +1,1209 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Assimp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\AssimpPCH.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BaseImporter.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BaseProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PostStepRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ImporterRegistry.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultIOStream.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultIOSystem.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Importer.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SGSpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\VertexTriangleAdjacency.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SpatialSort.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SceneCombiner.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ScenePreprocessor.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SkeletonMeshBuilder.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SplitByBoneCountProcess.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\StandardShapes.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TargetAnimation.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveComments.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Subdivision.cpp">
+      <Filter>Common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultLogger.cpp">
+      <Filter>Logging</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Exporter.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\AssimpCExport.cpp">
+      <Filter>Exporter</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CalcTangentsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ComputeUVMappingProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ConvertToLHProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindDegenerates.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindInstancesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindInvalidDataProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FixNormalsStep.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\GenFaceNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\GenVertexNormalsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PretransformVertices.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ImproveCacheLocality.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\JoinVerticesProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveRedundantMaterials.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveVCProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SortByPTypeProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SplitLargeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TerragenLoader.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TextureTransform.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TriangulateProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ValidateDataStructure.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OptimizeGraph.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OptimizeMeshes.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DeboneProcess.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ProcessHelper.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MakeVerboseFormat.cpp">
+      <Filter>PostProcessing</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\3DSConverter.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\3DSLoader.cpp">
+      <Filter>3DS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ACLoader.cpp">
+      <Filter>AC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ASELoader.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ASEParser.cpp">
+      <Filter>ASE</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\B3DImporter.cpp">
+      <Filter>B3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BVHLoader.cpp">
+      <Filter>BVH</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaLoader.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaParser.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaExporter.cpp">
+      <Filter>Collada</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DXFLoader.cpp">
+      <Filter>DXF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CSMLoader.cpp">
+      <Filter>CSM</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\HMPLoader.cpp">
+      <Filter>HMP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRMeshLoader.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRShared.cpp">
+      <Filter>Irr</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOAnimation.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOBLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOLoader.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOMaterial.cpp">
+      <Filter>LWO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWSLoader.cpp">
+      <Filter>LWS</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\M3Importer.cpp">
+      <Filter>M3</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD2Loader.cpp">
+      <Filter>MD2</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD3Loader.cpp">
+      <Filter>MD3</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD5Loader.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD5Parser.cpp">
+      <Filter>MD5</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDCLoader.cpp">
+      <Filter>MDC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDLLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDLMaterialLoader.cpp">
+      <Filter>MDL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MaterialSystem.cpp">
+      <Filter>MaterialSystem</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\NFFLoader.cpp">
+      <Filter>NFF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OFFLoader.cpp">
+      <Filter>OFFFormat</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileMtlImporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileParser.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjExporter.cpp">
+      <Filter>Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreImporter.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreMaterial.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreMesh.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreSkeleton.cpp">
+      <Filter>Ogre</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyLoader.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyParser.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyExporter.cpp">
+      <Filter>Ply</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3DLoader.cpp">
+      <Filter>Q3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPFileParser.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPFileImporter.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPZipArchive.cpp">
+      <Filter>Q3BSP</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RawLoader.cpp">
+      <Filter>Raw</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SMDLoader.cpp">
+      <Filter>SMD</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STLLoader.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STLExporter.cpp">
+      <Filter>STL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\UnrealLoader.cpp">
+      <Filter>Unreal</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XFileImporter.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XFileParser.cpp">
+      <Filter>XFile</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MS3DLoader.cpp">
+      <Filter>MS3D</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\COBLoader.cpp">
+      <Filter>COB</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderLoader.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderDNA.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderScene.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderModifier.cpp">
+      <Filter>BLENDER</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\NDOLoader.cpp">
+      <Filter>NDO</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCLoader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCReaderGen.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCUtil.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCGeometry.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCMaterial.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCProfile.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCCurve.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STEPFileReader.cpp">
+      <Filter>IFC</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XGLLoader.cpp">
+      <Filter>XGL</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\irrXML.cpp">
+      <Filter>IrrXML</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.c">
+      <Filter>ConvertUTF</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\unzip\ioapi.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\unzip\unzip.c">
+      <Filter>unzip</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.cc">
+      <Filter>Poly2Tri</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\clipper\clipper.cpp">
+      <Filter>Clipper</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\AssimpPCH.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\fast_atof.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\qnan.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BaseImporter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BaseProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Importer.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ScenePrivate.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ByteSwap.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultProgressHandler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultIOStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DefaultIOSystem.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CInterfaceIOWrapper.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Hash.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFF.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ParsingUtils.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\StdOStreamLogStream.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\StreamReader.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\StringComparison.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SGSpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\VertexTriangleAdjacency.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\GenericProperty.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SpatialSort.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SceneCombiner.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ScenePreprocessor.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SkeletonMeshBuilder.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SplitByBoneCountProcess.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SmoothingGroups.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\StandardShapes.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TargetAnimation.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveComments.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Subdivision.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Vertex.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LineSplitter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TinyFormatter.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Profiler.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LogAux.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\DefaultLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\IOStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\LogStream.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\Logger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\NullLogger.hpp">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Win32DebugLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FileLogStream.h">
+      <Filter>Logging</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlobIOSystem.h">
+      <Filter>Exporter</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CalcTangentsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ComputeUVMappingProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ConvertToLHProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindDegenerates.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindInstancesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FindInvalidDataProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\FixNormalsStep.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\GenFaceNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\GenVertexNormalsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PretransformVertices.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ImproveCacheLocality.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\JoinVerticesProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LimitBoneWeightsProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveRedundantMaterials.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RemoveVCProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SortByPTypeProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SplitLargeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TerragenLoader.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TextureTransform.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\TriangulateProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ValidateDataStructure.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OptimizeGraph.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OptimizeMeshes.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DeboneProcess.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ProcessHelper.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PolyTools.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MakeVerboseFormat.h">
+      <Filter>PostProcessing</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\3DSHelper.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\3DSLoader.h">
+      <Filter>3DS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ACLoader.h">
+      <Filter>AC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ASELoader.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ASEParser.h">
+      <Filter>ASE</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\B3DImporter.h">
+      <Filter>B3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BVHLoader.h">
+      <Filter>BVH</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaHelper.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaLoader.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaParser.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ColladaExporter.h">
+      <Filter>Collada</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DXFLoader.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\DXFHelper.h">
+      <Filter>DXF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CSMLoader.h">
+      <Filter>CSM</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\HMPFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\HMPLoader.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\HalfLifeFileData.h">
+      <Filter>HMP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRMeshLoader.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IRRShared.h">
+      <Filter>Irr</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOAnimation.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOFileData.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWOLoader.h">
+      <Filter>LWO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\LWSLoader.h">
+      <Filter>LWS</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\M3Importer.h">
+      <Filter>M3</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD2FileData.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD2Loader.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD2NormalTable.h">
+      <Filter>MD2</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD3FileData.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD3Loader.h">
+      <Filter>MD3</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD5Loader.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD5Parser.h">
+      <Filter>MD5</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDCFileData.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDCLoader.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDCNormalTable.h">
+      <Filter>MDC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDLDefaultColorMap.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDLFileData.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MDLLoader.h">
+      <Filter>MDL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MaterialSystem.h">
+      <Filter>MaterialSystem</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\NFFLoader.h">
+      <Filter>NFF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OFFLoader.h">
+      <Filter>OFFFormat</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileData.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileMtlImporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjFileParser.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjTools.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\ObjExporter.h">
+      <Filter>Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreImporter.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\OgreXmlHelper.hpp">
+      <Filter>Ogre</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyLoader.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyParser.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\PlyExporter.h">
+      <Filter>Ply</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3DLoader.h">
+      <Filter>Q3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPFileData.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPFileParser.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPFileImporter.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\Q3BSPZipArchive.h">
+      <Filter>Q3BSP</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\RawLoader.h">
+      <Filter>Raw</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\SMDLoader.h">
+      <Filter>SMD</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STLLoader.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STLExporter.h">
+      <Filter>STL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\UnrealLoader.h">
+      <Filter>Unreal</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XFileHelper.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XFileImporter.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XFileParser.h">
+      <Filter>XFile</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MD4FileData.h">
+      <Filter>Extra</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\MS3DLoader.h">
+      <Filter>MS3D</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\COBLoader.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\COBScene.h">
+      <Filter>COB</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderLoader.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderDNA.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderDNA.inl">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderScene.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderSceneGen.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderIntermediate.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BlenderModifier.h">
+      <Filter>BLENDER</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\NDOLoader.h">
+      <Filter>NDO</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCLoader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCReaderGen.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\IFCUtil.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STEPFile.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\STEPFileReader.h">
+      <Filter>IFC</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\XGLLoader.h">
+      <Filter>XGL</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\irrXMLWrapper.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\CXMLReaderImpl.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\heapsort.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\irrArray.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\irrString.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\irrTypes.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\irrXML\irrXML.h">
+      <Filter>IrrXML</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\ConvertUTF\ConvertUTF.h">
+      <Filter>ConvertUTF</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\unzip\crypt.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\unzip\ioapi.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\unzip\unzip.h">
+      <Filter>unzip</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\shapes.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\common\utils.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\advancing_front.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\cdt.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\poly2tri\poly2tri\sweep\sweep_context.h">
+      <Filter>Poly2Tri</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\clipper\clipper.hpp">
+      <Filter>Clipper</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\math\common_factor_rt.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\foreach.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\format.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\scoped_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_array.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\shared_ptr.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\make_shared.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\static_assert.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround\boost\tuple\tuple.hpp">
+      <Filter>Boost</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\anim.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\ai_assert.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\camera.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\color4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\color4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\config.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\defs.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\cfileio.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\light.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\material.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\material.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\matrix3x3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\matrix3x3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\matrix4x4.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\matrix4x4.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\mesh.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\postprocess.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\quaternion.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\quaternion.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\scene.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\texture.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\types.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\vector2.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\vector2.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\vector3.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\vector3.inl">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\version.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\cimport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\importerdesc.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\Importer.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\ProgressHandler.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\IOSystem.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\cexport.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\Exporter.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\Compiler\pushpack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\include\assimp\Compiler\poppack1.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\pstdint.h">
+      <Filter>Compiler</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\code\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="3DS">
+      <UniqueIdentifier>{A363B7A7-A62A-3A93-9A99-4848328CFE36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="AC">
+      <UniqueIdentifier>{CBB3C080-EEA7-3CE5-8505-FFC6975E6FFC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASE">
+      <UniqueIdentifier>{12A45F77-2E4A-326A-917F-E56D49472273}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="B3D">
+      <UniqueIdentifier>{AB1FC5CD-F82F-3D5A-A716-F22E25D257A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BLENDER">
+      <UniqueIdentifier>{BA84CE33-ACCB-35B5-96C4-66036E251148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BVH">
+      <UniqueIdentifier>{A3685DA8-4C85-36B7-ABD1-1FEB52F9BA11}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Boost">
+      <UniqueIdentifier>{F6B6A423-4F94-35E4-A0BB-4EE1DB36B1A7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="COB">
+      <UniqueIdentifier>{3CD000CE-265E-365B-81D7-6AA41486AFE6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CSM">
+      <UniqueIdentifier>{25672568-5C05-3D6A-B552-C856A18A66B0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Clipper">
+      <UniqueIdentifier>{A786227B-841E-31D5-B75F-D27A42F482D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Collada">
+      <UniqueIdentifier>{B89204D4-8270-381B-9ED2-052464ACE9DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{D45488F7-8652-38A5-9352-FC108D2CFD3F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Compiler">
+      <UniqueIdentifier>{FD0BD0A4-D249-320A-86A6-1C31708CC561}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ConvertUTF">
+      <UniqueIdentifier>{BE149911-8C5B-33B1-B1B3-A4C2656A687F}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DXF">
+      <UniqueIdentifier>{917425FF-4202-3AA9-B148-759811395BBB}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Exporter">
+      <UniqueIdentifier>{A0158C32-22C9-38BA-8D31-B80DCE76D3DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Extra">
+      <UniqueIdentifier>{AC4C3448-DACE-3480-A735-B003F14D07DC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="HMP">
+      <UniqueIdentifier>{37BD4D75-7D5C-330E-8134-82D7367811A9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{144BAA5E-24FE-36D7-B60D-C71A0B4A6428}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IFC">
+      <UniqueIdentifier>{1882E34E-0677-3388-9863-F0CE29316462}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Irr">
+      <UniqueIdentifier>{BE78CD85-6040-3304-9CC1-F51C074C2CDC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="IrrXML">
+      <UniqueIdentifier>{F9050EBA-4687-3E67-A256-B3796008277D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWO">
+      <UniqueIdentifier>{B9C012E2-104C-34AC-AC84-D0F2D73E40D0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="LWS">
+      <UniqueIdentifier>{437D2CA9-B33B-3A24-B082-4FFE5EECB10D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logging">
+      <UniqueIdentifier>{FBF5A308-F614-3CB1-93EB-C93484FD13EC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="M3">
+      <UniqueIdentifier>{219FB694-C8C9-3C69-ADD3-676D6975EC3C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD2">
+      <UniqueIdentifier>{473C0409-AD37-3949-9A77-81FAA40B633B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD3">
+      <UniqueIdentifier>{2387A5F2-2CB9-328A-A014-8270F15DA4CD}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MD5">
+      <UniqueIdentifier>{C025E232-85F6-3096-8DF4-D9FC779DB345}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDC">
+      <UniqueIdentifier>{0205B8AD-351C-3CBF-A5EC-5C83C86BCDF1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MDL">
+      <UniqueIdentifier>{1433C333-7080-3D56-8EA6-FB743F7D4DC5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MS3D">
+      <UniqueIdentifier>{AAAE4341-8D16-3332-A4EA-8403C6E38E98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MaterialSystem">
+      <UniqueIdentifier>{0A74F9C6-C7DB-30F7-AF96-3931B0F05966}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NDO">
+      <UniqueIdentifier>{9A3F064A-27DC-3A6D-AAE1-4538CFFA0912}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="NFF">
+      <UniqueIdentifier>{F6FFFF30-3BDE-39E9-BF21-BDEF83925078}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="OFFFormat">
+      <UniqueIdentifier>{2D7314E4-348A-3BAB-AB44-7C7B0954D850}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Obj">
+      <UniqueIdentifier>{FCED6E55-C02E-30C4-B65E-03591CA2C926}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ogre">
+      <UniqueIdentifier>{CF734B80-AE13-32BD-B38A-4EC32C822A35}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Ply">
+      <UniqueIdentifier>{BF4B1FFF-E217-39D4-B0A4-A9A49DF3F913}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Poly2Tri">
+      <UniqueIdentifier>{81767F2F-E109-32DC-AB7F-C685BA972FF7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="PostProcessing">
+      <UniqueIdentifier>{C43EC187-5E5F-398A-A194-DB8473B4847C}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3BSP">
+      <UniqueIdentifier>{3A0116D3-FB4F-39B6-99C5-C8FC92AD5D0D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Q3D">
+      <UniqueIdentifier>{F55E3BFC-6628-3338-8B12-504A4FD05B6E}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Raw">
+      <UniqueIdentifier>{A08AA1C7-7842-30B1-8609-A87BE2F99695}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SMD">
+      <UniqueIdentifier>{E4E14E64-AE3F-3FA7-8FE9-B94B16300ACC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="STL">
+      <UniqueIdentifier>{0150A11A-FEF6-3CF2-BABE-AE225347C796}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Unreal">
+      <UniqueIdentifier>{E68CD4E5-DADD-3BC2-AE87-5CFBD01B4D8D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XFile">
+      <UniqueIdentifier>{35A752CE-F43D-3969-B916-03EACE3C693B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="XGL">
+      <UniqueIdentifier>{535863EF-9D3A-3F5E-8236-73F37704F877}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="unzip">
+      <UniqueIdentifier>{2CC2AC6A-2F1A-396E-AD16-8FC3AA14C7F9}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

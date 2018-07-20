@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\SnakeTheGame.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\common\shader.cpp">
+      <Filter>common</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\apple.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\controls.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\snake.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="E:\cpp_20_07_2018\common\shader.hpp">
+      <Filter>common</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\apple.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\controls.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\snake.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="E:\cpp_20_07_2018\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_apple.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_snake.fragmentshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_apple.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_snake.vertexshader">
+      <Filter>shaders</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="classes">
+      <UniqueIdentifier>{BA53051A-C99B-3DF6-89D2-0F976201A38B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="common">
+      <UniqueIdentifier>{1DD14B83-5AAE-3BD1-8678-092DC97B5DAC}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="shaders">
+      <UniqueIdentifier>{B35BEAFD-7B12-3669-A1D2-9CBFF01C84BE}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>
