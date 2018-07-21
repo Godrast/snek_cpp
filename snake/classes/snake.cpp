@@ -1,4 +1,6 @@
 #include "snake.hpp"
+#include <iostream>
+
 
 Snake::Snake(std::string direction) {
 	nextDirection = direction;
@@ -7,19 +9,18 @@ Snake::Snake(std::string direction) {
 	}
 }
 
-std::vector<tile> Snake::getBody() {
+std::vector<Tile> Snake::getBody() {
 	return body;
 }
 
 void Snake::addTile(float x, float y, std::string dir) {
-	tile tempTile;
-	tempTile.x = x;
-	tempTile.y = y;
+	Tile tempTile;
+	tempTile.position = glm::translate(glm::mat4(), glm::vec3(float(x), 0.0f, float(y)));
 	tempTile.direction = dir;
 	body.push_back(tempTile);
 };
 
-void Snake::addTile(tile newTile) {
+void Snake::addTile(Tile newTile) {
 	body.push_back(newTile);
 };
 
@@ -34,35 +35,47 @@ void Snake::move(Apple *apple) {
 	if (getCurrentDirection() != nextDirection) {
 		body.at(0).direction = nextDirection;
 	}
-	tile lastTile = body.at(getSize() - 1);
+	Tile lastTile = body.at(getSize() - 1);
 
 
-	for (std::vector<tile>::reverse_iterator it = body.rbegin(); it != body.rend(); it++) {
+	for (std::vector<Tile>::reverse_iterator it = body.rbegin(); it != body.rend(); it++) {
 		if (it->direction == "UP") {
-			it->y += 1.0f;
+			//it->y += 1.0f;
+			it->position = glm::translate(it->position, glm::vec3(0.0f, 0.0f, 1.0f));
 		} else if (it->direction == "DOWN") {
-			it->y -= 1.0f;
+			//it->y -= 1.0f;
+			it->position = glm::translate(it->position, glm::vec3(0.0f, 0.0f, -1.0f));
+
 		} else if (it->direction == "LEFT") {
-			it->x -= 1.0f;
+			//it->x -= 1.0f;
+			it->position = glm::translate(it->position, glm::vec3(-1.0f, 0.0f, 0.0f));
+
 		} else if (it->direction == "RIGHT") {
-			it->x += 1.0f;
+			//it->x += 1.0f;
+			it->position = glm::translate(it->position, glm::vec3(1.0f, 0.0f, 0.0f));
+
 		}
 
 		if (it + 1 != body.rend()) {
 			it->direction = (it + 1)->direction;
 		} else {
 			//CHECK COLLISION
-			if (it->x < -14.0f || it->x > 14.0f || it->y > 10.0f || it->y < -10.0f) {
+
+			//std::cout<<"HALP: "<< glm::to_string(it->position[3])<<"\n";
+			float x = it->position[3].x;
+			float z = it->position[3].z;
+			printf("Z:%f\n", z);
+			if (x < -14.0f || x > 14.0f || z > 11.0f || z < -10.0f) {
 				shouldReset = true;
-			} else if (apple->getX() == it->x && apple->getY() == it->y) {
+			} else if (apple->getX() == x && apple->getY() == z) {
 				shouldAddTile = true;
 			} else {
-				for (std::vector<tile>::iterator it2 = body.begin() + 1; it2 != body.end(); it2++) {
-					if (it2->x == it->x && it2->y == it->y) {
-						shouldReset = true;
-					}
+				if (findTile(*it)) {
+					shouldReset = true;
 				}
+
 			}
+
 		}
 	}
 
@@ -76,6 +89,9 @@ void Snake::move(Apple *apple) {
 };
 
 void Snake::setDirection(std::string dir) {
+	//TESTS
+	//body.at(0).direction = dir;
+
 	nextDirection = dir;
 }
 
@@ -89,4 +105,13 @@ void Snake::reset(std::string direction) {
 	for (int i = 0; i < size; i++) {
 		addTile(0.0f, (float)-i, direction);
 	}
+}
+
+
+bool Snake::findTile(Tile myTile) {
+	auto pred = [myTile](const Tile & otherTile) {
+		return otherTile.position == myTile.position;
+	};
+	return std::find_if(body.begin() + 1, body.end(), pred) != body.end();
+
 }

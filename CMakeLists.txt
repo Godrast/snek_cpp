@@ -73,12 +73,16 @@ file(GLOB shaders_SRC
 file(GLOB classes_SRC
 	"snake/classes/*"
 )
+file(GLOB externalLib_SRC
+	"snake/externalLibraries/*"
+)
 
 add_executable(snake
 	${snake_SRC}
 	${common_SRC}
 	${shaders_SRC}
 	${classes_SRC}
+	${externalLib_SRC}
 )
 target_link_libraries(snake
 	${ALL_LIBS}
@@ -91,6 +95,7 @@ create_default_target_launcher(snake WORKING_DIRECTORY "${CMAKE_CURRENT_SOURCE_D
 
 SOURCE_GROUP(common REGULAR_EXPRESSION ".*/common/.*" )
 SOURCE_GROUP(classes REGULAR_EXPRESSION ".*/snake/classes/.*" )
+SOURCE_GROUP(externalLib REGULAR_EXPRESSION ".*/snake/externalLibraries/.*" )
 SOURCE_GROUP(shaders REGULAR_EXPRESSION ".*/.*shader$" )
 
 

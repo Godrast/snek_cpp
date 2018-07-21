@@ -8,12 +8,14 @@ Apple::Apple() {
 void Apple::spawnApple(Snake *snek) {
 	float randX, randY;
 	randomPos(&randX, &randY);
-	std::vector<tile> snakeBody = snek->getBody();
-	for (std::vector<tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); it++) {
-		if (it->x == randX && it->y == randY) {
+	std::vector<Tile> snakeBody = snek->getBody();
+	for (std::vector<Tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); it++) {
+		
+		if (it->position[3].x == randX && it->position[3].y == randY) {
 			it = snakeBody.begin() - 1;
 			randomPos(&randX, &randY);
 		}
+		
 	}
 	x = randX;
 	y = randY;

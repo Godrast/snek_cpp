@@ -13,7 +13,13 @@
     <ClCompile Include="E:\cpp_20_07_2018\snake\classes\controls.cpp">
       <Filter>classes</Filter>
     </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
     <ClCompile Include="E:\cpp_20_07_2018\snake\classes\snake.cpp">
+      <Filter>classes</Filter>
+    </ClCompile>
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.cpp">
       <Filter>classes</Filter>
     </ClCompile>
   </ItemGroup>
@@ -27,26 +33,21 @@
     <ClInclude Include="E:\cpp_20_07_2018\snake\classes\controls.hpp">
       <Filter>classes</Filter>
     </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
     <ClInclude Include="E:\cpp_20_07_2018\snake\classes\snake.hpp">
       <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.hpp">
+      <Filter>classes</Filter>
+    </ClInclude>
+    <ClInclude Include="E:\cpp_20_07_2018\snake\externalLibraries\stb_image.hpp">
+      <Filter>externalLib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <CustomBuild Include="E:\cpp_20_07_2018\CMakeLists.txt" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_apple.fragmentshader">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_snake.fragmentshader">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_apple.vertexshader">
-      <Filter>shaders</Filter>
-    </None>
-    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_snake.vertexshader">
-      <Filter>shaders</Filter>
-    </None>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
@@ -58,8 +59,8 @@
     <Filter Include="common">
       <UniqueIdentifier>{1DD14B83-5AAE-3BD1-8678-092DC97B5DAC}</UniqueIdentifier>
     </Filter>
-    <Filter Include="shaders">
-      <UniqueIdentifier>{B35BEAFD-7B12-3669-A1D2-9CBFF01C84BE}</UniqueIdentifier>
+    <Filter Include="externalLib">
+      <UniqueIdentifier>{82C5027D-1881-3275-9156-D525B2D21F28}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

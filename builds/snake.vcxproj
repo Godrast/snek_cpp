@@ -364,16 +364,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <ClCompile Include="E:\cpp_20_07_2018\snake\SnakeTheGame.cpp" />
     <ClCompile Include="E:\cpp_20_07_2018\common\shader.cpp" />
     <ClInclude Include="E:\cpp_20_07_2018\common\shader.hpp" />
-    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_apple.fragmentshader" />
-    <None Include="E:\cpp_20_07_2018\snake\fragment_shader_snake.fragmentshader" />
-    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_apple.vertexshader" />
-    <None Include="E:\cpp_20_07_2018\snake\vertex_shader_snake.vertexshader" />
     <ClCompile Include="E:\cpp_20_07_2018\snake\classes\apple.cpp" />
     <ClInclude Include="E:\cpp_20_07_2018\snake\classes\apple.hpp" />
     <ClCompile Include="E:\cpp_20_07_2018\snake\classes\controls.cpp" />
     <ClInclude Include="E:\cpp_20_07_2018\snake\classes\controls.hpp" />
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.cpp" />
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.hpp" />
     <ClCompile Include="E:\cpp_20_07_2018\snake\classes\snake.cpp" />
     <ClInclude Include="E:\cpp_20_07_2018\snake\classes\snake.hpp" />
+    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.cpp" />
+    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.hpp" />
+    <ClInclude Include="E:\cpp_20_07_2018\snake\externalLibraries\stb_image.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">

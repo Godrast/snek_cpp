@@ -5,34 +5,42 @@
 #include <cstdio>
 #include <string>
 #include <iterator>
-#include "apple.hpp"
+#include <algorithm>
 
+
+#include <glm/glm.hpp>
+#include <glm/gtc/matrix_transform.hpp>
+#include <glm/gtx/string_cast.hpp>
+
+#include "apple.hpp"
 class Apple;
 
-struct tile {
-	float x;
-	float y;
+struct Tile {
+	glm::mat4 position;
 	std::string direction;
+
 };
 
 class Snake {
 
-	std::vector<tile> body;
+	std::vector<Tile> body;
 	std::string nextDirection;
 	int size = 5;
 
 public:
 	Snake(std::string direction);
-	std::vector<tile> getBody();
+	std::vector<Tile> getBody();
 	unsigned int getSize();
 	void addTile(float x, float y, std::string dir);
-	void addTile(tile newTile);
+	void addTile(Tile newTile);
 	void move(Apple *apple);
 	void setDirection(std::string dir);
 	std::string getCurrentDirection();
 	void reset(std::string direction);
+	bool findTile(Tile myTile);
+
 
 };
 
 
-#endif SNAKE_HPP
+#endif // !SNAKE_HPP

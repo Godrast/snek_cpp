@@ -14,20 +14,29 @@ GLFWwindow* window;
 // Include GLM
 #include <glm/glm.hpp>
 #include <glm/gtc/matrix_transform.hpp>
-using namespace glm;
 
 #include <common/shader.hpp>
 #include "classes/snake.hpp"
 #include "classes/controls.hpp"
 #include "classes/apple.hpp"
+#include "classes/fragmentShaders.hpp"
+#include "classes/vertexShaders.hpp"
 
 
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
+
+
+//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+
+
+void spawnWall(glm::mat4 *MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned int size, float left, float right, float top, float bottom);
 
 int main(void) {
 
 	float gameSpeed = float(1) / float(5);
+
+	VertexShaders vertexShaders = VertexShaders();
+	FragmentShaders fragmentShaders = FragmentShaders();
 
 	// Initialise GLFW
 	if (!glfwInit()) {
@@ -64,6 +73,14 @@ int main(void) {
 	// Ensure we can capture the escape key being pressed below
 	glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_FALSE);
 
+
+
+	// Enable depth test
+	glEnable(GL_DEPTH_TEST);
+	// Accept fragment if it closer to the camera than the former one
+	glDepthFunc(GL_LESS);
+
+
 	// Dark blue background
 	glClearColor(0.0f, 0.0f, 0.0f, 0.0f);
 
@@ -72,9 +89,13 @@ int main(void) {
 	glBindVertexArray(VertexArrayID);
 
 	// Create and compile our GLSL program from the shaders
-	GLuint programSnake = LoadShaders("vertex_shader_snake.vertexshader", "fragment_shader_snake.fragmentshader");
-	GLuint programApple = LoadShaders("vertex_shader_apple.vertexshader", "fragment_shader_apple.fragmentshader");
+	//GLuint programSnake = LoadShadersExternal("vertex_shader_snake.vertexshader", "fragment_shader_snake.fragmentshader");
+	//GLuint programApple = LoadShadersExternal("vertex_shader_apple.vertexshader", "fragment_shader_apple.fragmentshader");
 
+
+	GLuint programSnake = LoadShaders(vertexShaders.getGeneral3DShader(), fragmentShaders.getSnakeShader());
+	GLuint programApple = LoadShaders(vertexShaders.getGeneral3DShader(), fragmentShaders.getAppleShader());
+	GLuint programWall = LoadShaders(vertexShaders.getGeneral3DShader(), fragmentShaders.getWallShader());
 
 
 
@@ -96,7 +117,7 @@ int main(void) {
 
 
 	GLuint MatrixID = glGetUniformLocation(programSnake, "MVP");
-
+	/*
 	// Projection matrix : 45° Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
 	glm::mat4 Projection = glm::perspective(glm::radians(60.0f), 4.0f / 3.0f, 0.1f, 100.0f);
 	// Or, for an ortho camera :
@@ -104,14 +125,16 @@ int main(void) {
 
 	// Camera matrix
 	glm::mat4 View = glm::lookAt(
-		glm::vec3(0, 1, 20), // Camera is at (4,3,3), in World Space
-		glm::vec3(0, 0, 0), // and looks at the origin
+		glm::vec3(0, -3, 25), // Camera is at (4,3,3), in World Space
+		glm::vec3(0, 0.5, 0), // and looks at the origin
 		glm::vec3(0, 1, 0)  // Head is up (set to 0,-1,0 to look upside-down)
 	);
 	// Model matrix : an identity matrix (model will be at the origin)
 	glm::mat4 Model = glm::mat4(1.0f);
 	// Our ModelViewProjection : multiplication of our 3 matrices
-	glm::mat4 MVP = Projection * View * Model; // Remember, matrix multiplication is the other way around
+
+	*/
+	glm::mat4 MVP;// = Projection * View * Model; // Remember, matrix multiplication is the other way around
 
 
 
@@ -119,10 +142,16 @@ int main(void) {
 
 
 	static const GLfloat vertices_square[] = {
-		-0.45f, 0.45f, 0.0f, //top left
-		-0.45f, -0.45f, 0.0f, //bottom left
-		0.45f, -0.45f, 0.0f, //bottom right
-		0.45f, 0.45f, 0.0f //top right
+		-0.5f, 0.5f, 0.5f, //front top left
+		-0.5f, -0.5f, 0.5f, //front bottom left
+		0.5f, -0.5f, 0.5f, //front bottom right
+		0.5f, 0.5f, 0.5f, //front top right
+
+		-0.5f, 0.5f, -0.5f, //back top left
+		-0.5f, -0.5f, -0.5f, //back bottom left
+		0.5f, -0.5f, -0.5f, //back bottom right
+		0.5f, 0.5f, -0.5f //back top right
+
 	};
 
 	GLuint squareVertexBuffer;
@@ -131,7 +160,20 @@ int main(void) {
 	glBufferData(GL_ARRAY_BUFFER, sizeof(vertices_square), vertices_square, GL_STATIC_DRAW);
 
 
-	static const uint indecies_square[] = { 0, 1, 2, 0, 2, 3 };
+	static const glm::uint indecies_square[] = {
+		0, 1, 2,
+		0, 3, 2,
+		0, 1, 5,
+		0, 4, 5,
+		0, 4, 3,
+		0, 4, 7,
+		6, 7, 3,
+		6, 2, 3,
+		6, 5, 1,
+		6, 2, 1,
+		6, 5, 4,
+		6, 7, 4
+	};
 
 	GLuint indeciesSquareBuffer;
 	glGenBuffers(1, &indeciesSquareBuffer);
@@ -149,7 +191,9 @@ int main(void) {
 			//printf("Snake head y:%f\tx:%f\n", snake.getBody().at(0).y, snake.getBody().at(0).x);
 		}
 		// Clear the screen
-		glClear(GL_COLOR_BUFFER_BIT);
+		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
+
+		computeMVP(&MVP, &snake, window);
 
 		// Use our shader
 		glUseProgram(programSnake);
@@ -168,15 +212,14 @@ int main(void) {
 
 		// Send our transformation to the currently bound shader, 
 		// in the "MVP" uniform
-		std::vector<tile> snakeBody = snake.getBody();
-		for (std::vector<tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); it++) {
-			glm::mat4 tempTransformMatrix = translate(mat4(), vec3(it->x, it->y, 0.0f));
-			glm::mat4 tempMVP = MVP * tempTransformMatrix;
+		std::vector<Tile> snakeBody = snake.getBody();
+		for (std::vector<Tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); it++) {
+			glm::mat4 tempMVP = MVP * it->position;
 
 			glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
 
 			// Draw the triangle !
-			//glDrawArrays(GL_TRIANGLES, 0, 3); // 3 indices starting at 0 -> 1 triangle
+			//glDrawArrays(GL_LINES, 0, 3); // 3 indices starting at 0 -> 1 triangle
 			glDrawElements(GL_TRIANGLES, sizeof(indecies_square) / sizeof(indecies_square[0]), GL_UNSIGNED_INT, 0);
 		}
 
@@ -188,13 +231,15 @@ int main(void) {
 
 		// Send our transformation to the currently bound shader, 
 		// in the "MVP" uniform
-		glm::mat4 transformApple = translate(mat4(), vec3(apple.getX(), apple.getY(), 0));
+		glm::mat4 transformApple = glm::translate(glm::mat4(), glm::vec3(apple.getX(), 0.0f, apple.getY()));
 		glm::mat4 MVPApple = MVP * transformApple;
 		glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVPApple[0][0]);
 
 		// Draw the triangle !
-		//glDrawArrays(GL_TRIANGLES, 0, 3); // 3 indices starting at 0 -> 1 triangle
+		//glDrawArrays(GL_LINES, 0, 3); // 3 indices starting at 0 -> 1 triangle
 		glDrawElements(GL_TRIANGLES, sizeof(indecies_square) / sizeof(indecies_square[0]), GL_UNSIGNED_INT, 0);
+
+		spawnWall(&MVP, &programWall,&MatrixID, sizeof(indecies_square) / sizeof(indecies_square[0]), -14.0f, 14.0f, 10.0f, -9.0f);
 
 		glDisableVertexAttribArray(0);
 
@@ -220,3 +265,41 @@ int main(void) {
 	return 0;
 }
 
+
+
+void spawnWall(glm::mat4 * MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned int size, float left, float right, float top, float bottom) {
+	glUseProgram(*ProgramID);
+	for (float x = left - 1.0f; x <= right + 1.0f; x++) {
+		glm::mat4 transformMatrix = glm::translate(glm::mat4(), glm::vec3(x, 0.0f, top + 2.0f));
+		glm::mat4 tempMVP = *MVP * transformMatrix;
+
+		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
+
+		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+
+		transformMatrix = glm::translate(glm::mat4(), glm::vec3(x, 0.0f, bottom - 2.0f));
+		tempMVP = *MVP * transformMatrix;
+
+		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
+
+		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+
+	}
+	for (float y = bottom - 1.0f; y <= top + 1.0f; y++) {
+		glm::mat4 transformMatrix = glm::translate(glm::mat4(), glm::vec3(left -1.0f , 0.0f, y));
+		glm::mat4 tempMVP = *MVP * transformMatrix;
+
+		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
+
+		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+
+
+		transformMatrix = glm::translate(glm::mat4(), glm::vec3(right + 1.0f, 0.0f, y));
+		tempMVP = *MVP * transformMatrix;
+
+		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
+
+		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+
+	}
+}
