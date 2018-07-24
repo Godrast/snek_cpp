@@ -5,14 +5,12 @@
 class Snake;
 
 class Apple {
-	float x;
-	float y;
-
+	glm::mat4 position;
 public:
 	Apple();
-	float getX();
-	float getY();
+	glm::mat4 getPosition();
 	void spawnApple(Snake *snek);
-	void randomPos(float *x, float *y);
+	void randomPos();
+
 };
 #endif // !APPLE_HPP

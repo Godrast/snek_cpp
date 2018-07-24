@@ -6,34 +6,29 @@ Apple::Apple() {
 }
 
 void Apple::spawnApple(Snake *snek) {
-	float randX, randY;
-	randomPos(&randX, &randY);
 	std::vector<Tile> snakeBody = snek->getBody();
-	for (std::vector<Tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); it++) {
-		
-		if (it->position[3].x == randX && it->position[3].y == randY) {
-			it = snakeBody.begin() - 1;
-			randomPos(&randX, &randY);
+	bool alreadyExists = false;
+	do {
+		alreadyExists = false;
+		randomPos();
+		for (std::vector<Tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); ++it) {
+			if (it->position == position) {
+				alreadyExists = true;
+				break;
+			}
 		}
-		
-	}
-	x = randX;
-	y = randY;
+	} while (alreadyExists);
+	
 
 }
 
-void Apple::randomPos(float *x, float *y) {
-	float randX = rand() % 29 - 14;
-	float randY = rand() % 20 - 9;
-	*x = randX;
-	*y = randY;
+void Apple::randomPos() {
+	float randX = rand() % 27 - 13;
+	float randZ = rand() % 20 - 9;
+	position = glm::translate(glm::mat4(), glm::vec3(randX, 0.0f, randZ));
 }
 
-float Apple::getX() {
-	return x;
+glm::mat4 Apple::getPosition() {
+	return position;
 }
 
-
-float Apple::getY() {
-	return y;
-}

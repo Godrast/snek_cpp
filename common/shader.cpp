@@ -163,7 +163,7 @@ GLuint LoadShaders(const char * vertex_shader, const char * fragment_shader) {
 		glGetProgramInfoLog(ProgramID, InfoLogLength, NULL, &ProgramErrorMessage[0]);
 		printf("%s\n", &ProgramErrorMessage[0]);
 	}
-	printf("Program linked correctly.\n");
+	printf("Program linked correctly.\n\n");
 
 	glDetachShader(ProgramID, VertexShaderID);
 	glDetachShader(ProgramID, FragmentShaderID);

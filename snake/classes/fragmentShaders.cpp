@@ -21,7 +21,7 @@ FragmentShaders::FragmentShaders() {
 		"out vec3 color;\n"
 		"void main() {\n"
 
-		"color = vec3(0.8, 0.8, 0.8);\n"
+		"color = vec3(0.6, 0.6, 0.6);\n"
 		"}";
 }
 

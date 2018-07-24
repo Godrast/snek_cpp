@@ -26,7 +26,7 @@ GLFWwindow* window;
 
 
 
-//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 
 void spawnWall(glm::mat4 *MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned int size, float left, float right, float top, float bottom);
@@ -71,7 +71,7 @@ int main(void) {
 	}
 
 	// Ensure we can capture the escape key being pressed below
-	glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_FALSE);
+	glfwSetInputMode(window, GLFW_STICKY_KEYS, GL_TRUE);
 
 
 
@@ -181,8 +181,17 @@ int main(void) {
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indecies_square), indecies_square, GL_STATIC_DRAW);
 
 	double timeStamp = glfwGetTime();
+
+	bool canPressLeft = true;
+	bool canPressRight = true;
+
+	int lastLeftPressed = 0;
+	int lastRightPressed = 0;
+
+
 	do {
-		checkForKeyboardInput(window, &snake);
+		checkForKeyboardInput(window, &snake, &canPressLeft, &canPressRight, &lastLeftPressed, &lastRightPressed);
+		printf("LEFT: %d\nRIGHT: %d\n\n", canPressLeft, canPressRight);
 
 		double currentTimeStamp = glfwGetTime();
 		if (currentTimeStamp - timeStamp > gameSpeed) {
@@ -193,7 +202,7 @@ int main(void) {
 		// Clear the screen
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		computeMVP(&MVP, &snake, window);
+		computeMVP(&MVP, &snake);
 
 		// Use our shader
 		glUseProgram(programSnake);
@@ -231,8 +240,7 @@ int main(void) {
 
 		// Send our transformation to the currently bound shader, 
 		// in the "MVP" uniform
-		glm::mat4 transformApple = glm::translate(glm::mat4(), glm::vec3(apple.getX(), 0.0f, apple.getY()));
-		glm::mat4 MVPApple = MVP * transformApple;
+		glm::mat4 MVPApple = MVP * apple.getPosition();
 		glUniformMatrix4fv(MatrixID, 1, GL_FALSE, &MVPApple[0][0]);
 
 		// Draw the triangle !
@@ -275,14 +283,14 @@ void spawnWall(glm::mat4 * MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned 
 
 		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
 
-		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+		glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, 0);
 
 		transformMatrix = glm::translate(glm::mat4(), glm::vec3(x, 0.0f, bottom - 2.0f));
 		tempMVP = *MVP * transformMatrix;
 
 		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
 
-		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+		glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, 0);
 
 	}
 	for (float y = bottom - 1.0f; y <= top + 1.0f; y++) {
@@ -291,7 +299,7 @@ void spawnWall(glm::mat4 * MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned 
 
 		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
 
-		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+		glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, 0);
 
 
 		transformMatrix = glm::translate(glm::mat4(), glm::vec3(right + 1.0f, 0.0f, y));
@@ -299,7 +307,7 @@ void spawnWall(glm::mat4 * MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned 
 
 		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);
 
-		glDrawElements(GL_LINES, size, GL_UNSIGNED_INT, 0);
+		glDrawElements(GL_TRIANGLES, size, GL_UNSIGNED_INT, 0);
 
 	}
 }
