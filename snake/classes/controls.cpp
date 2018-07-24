@@ -26,7 +26,6 @@ void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft,
 		} else if (currentDir == "RIGHT") {
 			snek->setDirection("UP");
 		}
-		printf("HALP %d\n", *canPressLeft);
 		*canPressLeft = false;
 		glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS ? *lastPressedLeft = GLFW_KEY_LEFT : *lastPressedLeft = GLFW_KEY_A;
 	} else if (glfwGetKey(window, *lastPressedLeft) == GLFW_RELEASE) {

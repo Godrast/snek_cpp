@@ -26,7 +26,7 @@ GLFWwindow* window;
 
 
 
-#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 
 void spawnWall(glm::mat4 *MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned int size, float left, float right, float top, float bottom);
@@ -182,22 +182,31 @@ int main(void) {
 
 	double timeStamp = glfwGetTime();
 
+	double frameRateTimestamp = glfwGetTime();
+
 	bool canPressLeft = true;
 	bool canPressRight = true;
+
+	int frameCount = 0;
 
 	int lastLeftPressed = 0;
 	int lastRightPressed = 0;
 
 
 	do {
+		frameCount++;
 		checkForKeyboardInput(window, &snake, &canPressLeft, &canPressRight, &lastLeftPressed, &lastRightPressed);
-		printf("LEFT: %d\nRIGHT: %d\n\n", canPressLeft, canPressRight);
-
 		double currentTimeStamp = glfwGetTime();
 		if (currentTimeStamp - timeStamp > gameSpeed) {
 			timeStamp = currentTimeStamp;
 			snake.move(&apple);
 			//printf("Snake head y:%f\tx:%f\n", snake.getBody().at(0).y, snake.getBody().at(0).x);
+		}
+
+		if (currentTimeStamp - frameRateTimestamp > 1.0f) {
+			printf("\nFRAME RATE: %d\n\n", frameCount);
+			frameRateTimestamp = currentTimeStamp;
+			frameCount = 0;
 		}
 		// Clear the screen
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
