@@ -26,7 +26,7 @@ GLFWwindow* window;
 
 
 
-//#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
+#pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 
 void spawnWall(glm::mat4 *MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned int size, float left, float right, float top, float bottom);
@@ -50,6 +50,7 @@ int main(void) {
 	glfwWindowHint(GLFW_CONTEXT_VERSION_MINOR, 3);
 	glfwWindowHint(GLFW_OPENGL_FORWARD_COMPAT, GL_TRUE); // To make MacOS happy; should not be needed
 	glfwWindowHint(GLFW_OPENGL_PROFILE, GLFW_OPENGL_CORE_PROFILE);
+	glfwWindowHint(GLFW_RESIZABLE, GL_FALSE);
 
 	// Open a window and create its OpenGL context
 	window = glfwCreateWindow(1024, 768, "Snek the game", NULL, NULL);
@@ -125,9 +126,9 @@ int main(void) {
 
 	// Camera matrix
 	glm::mat4 View = glm::lookAt(
-		glm::vec3(0, -3, 25), // Camera is at (4,3,3), in World Space
-		glm::vec3(0, 0.5, 0), // and looks at the origin
-		glm::vec3(0, 1, 0)  // Head is up (set to 0,-1,0 to look upside-down)
+	glm::vec3(0, -3, 25), // Camera is at (4,3,3), in World Space
+	glm::vec3(0, 0.5, 0), // and looks at the origin
+	glm::vec3(0, 1, 0)  // Head is up (set to 0,-1,0 to look upside-down)
 	);
 	// Model matrix : an identity matrix (model will be at the origin)
 	glm::mat4 Model = glm::mat4(1.0f);
@@ -184,22 +185,23 @@ int main(void) {
 
 	double frameRateTimestamp = glfwGetTime();
 
+	double turnCameraTimeStamp = glfwGetTime();
+
 	bool canPressLeft = true;
 	bool canPressRight = true;
 
 	int frameCount = 0;
 
-	int lastLeftPressed = 0;
-	int lastRightPressed = 0;
-
-
 	do {
 		frameCount++;
-		checkForKeyboardInput(window, &snake, &canPressLeft, &canPressRight, &lastLeftPressed, &lastRightPressed);
+		checkForKeyboardInput(window, &snake, &canPressLeft, &canPressRight);
 		double currentTimeStamp = glfwGetTime();
 		if (currentTimeStamp - timeStamp > gameSpeed) {
 			timeStamp = currentTimeStamp;
-			snake.move(&apple);
+			int turn = snake.move(&apple);
+			if (turn != 0) {
+				turnCamera(turn, snake.getCurrentDirection());
+			}
 			//printf("Snake head y:%f\tx:%f\n", snake.getBody().at(0).y, snake.getBody().at(0).x);
 		}
 
@@ -211,7 +213,7 @@ int main(void) {
 		// Clear the screen
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
-		computeMVP(&MVP, &snake);
+		computeMVP(&MVP, &snake, currentTimeStamp - turnCameraTimeStamp);
 
 		// Use our shader
 		glUseProgram(programSnake);
@@ -256,7 +258,7 @@ int main(void) {
 		//glDrawArrays(GL_LINES, 0, 3); // 3 indices starting at 0 -> 1 triangle
 		glDrawElements(GL_TRIANGLES, sizeof(indecies_square) / sizeof(indecies_square[0]), GL_UNSIGNED_INT, 0);
 
-		spawnWall(&MVP, &programWall,&MatrixID, sizeof(indecies_square) / sizeof(indecies_square[0]), -14.0f, 14.0f, 10.0f, -9.0f);
+		spawnWall(&MVP, &programWall, &MatrixID, sizeof(indecies_square) / sizeof(indecies_square[0]), -14.0f, 14.0f, 10.0f, -9.0f);
 
 		glDisableVertexAttribArray(0);
 
@@ -264,6 +266,8 @@ int main(void) {
 		// Swap buffers
 		glfwSwapBuffers(window);
 		glfwPollEvents();
+
+		turnCameraTimeStamp = currentTimeStamp;
 
 	} // Check if the ESC key was pressed or the window was closed
 	while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&
@@ -303,7 +307,7 @@ void spawnWall(glm::mat4 * MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned 
 
 	}
 	for (float y = bottom - 1.0f; y <= top + 1.0f; y++) {
-		glm::mat4 transformMatrix = glm::translate(glm::mat4(), glm::vec3(left -1.0f , 0.0f, y));
+		glm::mat4 transformMatrix = glm::translate(glm::mat4(), glm::vec3(left - 1.0f, 0.0f, y));
 		glm::mat4 tempMVP = *MVP * transformMatrix;
 
 		glUniformMatrix4fv(*MatrixID, 1, GL_FALSE, &tempMVP[0][0]);

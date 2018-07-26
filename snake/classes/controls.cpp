@@ -2,7 +2,11 @@
 
 #include "controls.hpp"
 
-void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft, bool * canPressRight, int * lastPressedLeft, int * lastPressedRight) {
+
+double gameSpeed = 1.0 / 15.0;
+float turnAmount = 0.0f;
+
+void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft, bool * canPressRight) {
 
 	/*if (glfwGetKey(window, GLFW_KEY_UP) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_W) == GLFW_PRESS) {
 		if (snek->getCurrentDirection() != "DOWN") {
@@ -19,57 +23,80 @@ void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft,
 	if (*canPressLeft == true && (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_A) == GLFW_PRESS)) {
 		if (currentDir == "UP") {
 			snek->setDirection("LEFT");
+			//- 3.14/2
 		} else if (currentDir == "LEFT") {
 			snek->setDirection("DOWN");
+			// 0
 		} else if (currentDir == "DOWN") {
 			snek->setDirection("RIGHT");
+			//3.14/2
 		} else if (currentDir == "RIGHT") {
 			snek->setDirection("UP");
+			//3.14
 		}
 		*canPressLeft = false;
-		glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_PRESS ? *lastPressedLeft = GLFW_KEY_LEFT : *lastPressedLeft = GLFW_KEY_A;
-	} else if (glfwGetKey(window, *lastPressedLeft) == GLFW_RELEASE) {
+	} else if (glfwGetKey(window, GLFW_KEY_LEFT) == GLFW_RELEASE && glfwGetKey(window, GLFW_KEY_A) == GLFW_RELEASE) {
 		*canPressLeft = true;
 	}
 
 	if (*canPressRight == true && (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS || glfwGetKey(window, GLFW_KEY_D) == GLFW_PRESS)) {
 		if (currentDir == "UP") {
 			snek->setDirection("RIGHT");
+			//3.14/2
 		} else if (currentDir == "RIGHT") {
 			snek->setDirection("DOWN");
+			//0
 		} else if (currentDir == "DOWN") {
 			snek->setDirection("LEFT");
+			//-3.14/2
 		} else if (currentDir == "LEFT") {
 			snek->setDirection("UP");
+			//3.14
 		}
+
 		*canPressRight = false;
-		glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_PRESS ? *lastPressedRight = GLFW_KEY_RIGHT : *lastPressedRight = GLFW_KEY_D;
-	} else if (glfwGetKey(window, *lastPressedRight) == GLFW_RELEASE) {
+	} else if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_RELEASE && glfwGetKey(window, GLFW_KEY_D) == GLFW_RELEASE) {
 		*canPressRight = true;
 	}
 }
 
+float horizontalAngle = 3.14f;
+float verticalAngle = -0.6f;
+glm::vec3 lookDirection(
+	cos(verticalAngle) * sin(horizontalAngle),
+	sin(verticalAngle),
+	cos(verticalAngle) * cos(horizontalAngle)
+);
 
 
 
 
-float speed = 3.0f; // 3 units / second
-float mouseSpeed = 0.005f;
-
-void computeMVP(glm::mat4 *MVP, Snake *snek) {
+void computeMVP(glm::mat4 *MVP, Snake *snek, double timeAmount) {
 	// Projection matrix : 45° Field of View, 4:3 ratio, display range : 0.1 unit <-> 100 units
-	glm::mat4 Projection = glm::perspective(glm::radians(90.0f), 4.0f / 3.0f, 0.1f, 100.0f);
+	glm::mat4 Projection = glm::perspective(glm::radians(100.0f), 4.0f / 3.0f, 0.1f, 100.0f);
 	// Or, for an ortho camera :
 	//glm::mat4 Projection = glm::ortho(-10.0f,10.0f,-10.0f,10.0f,0.0f,100.0f); // In world coordinates
 	std::vector<Tile> snakeBody = snek->getBody();
-
-	float x = snakeBody.at(1).position[3].x;
-	float y = snakeBody.at(1).position[3].y;
-	float z = snakeBody.at(1).position[3].z;
+	glm::vec4 position = snakeBody.at(1).position[3];
+	float x = position.x;
+	float y = position.y;
+	float z = position.z;
 
 	std::string direction = snek->getCurrentDirection();
 
 
+	if (turnAmount != 0) {
+
+		float turnRate = roundf(((timeAmount / gameSpeed) * turnAmount) * 1000.0f) / 1000.0f;
+		turnAmount = roundf(turnAmount * 1000.0f - turnRate * 1000.0f) / 1000.0f;
+		horizontalAngle += turnRate;
+
+		lookDirection = glm::vec3(
+			cos(verticalAngle) * sin(horizontalAngle),
+			sin(verticalAngle),
+			cos(verticalAngle) * cos(horizontalAngle)
+		);
+	}
 
 
 
@@ -81,7 +108,6 @@ void computeMVP(glm::mat4 *MVP, Snake *snek) {
 	);
 	*/
 
-	glm::vec3 lookDirection;
 
 
 	float offsetX = 0.0f;
@@ -89,31 +115,31 @@ void computeMVP(glm::mat4 *MVP, Snake *snek) {
 
 
 
-	if (direction == "UP") {
-		lookDirection = glm::vec3(
-			cos(-0.6f) * sin(3.14f),
-			sin(-0.6f),
-			cos(-0.6f) * cos(3.14f)
-		);
-	} else if (direction == "DOWN") {
-		lookDirection = glm::vec3(
-			cos(-0.6f) * sin(0.0f),
-			sin(-0.6f),
-			cos(-0.6f) * cos(0.0f)
-		);
-	} else if (direction == "LEFT") {
-		lookDirection = glm::vec3(
-			cos(-0.6f) * sin(-3.14f / 2.0f),
-			sin(-0.6f),
-			cos(-0.6f) * cos(-3.14f / 2.0f)
-		);
-	} else if (direction == "RIGHT") {
-		lookDirection = glm::vec3(
-			cos(-0.6f) * sin(3.14f / 2.0f),
-			sin(-0.6f),
-			cos(-0.6f) * cos(3.14f / 2.0f)
-		);
-	}
+	//if (direction == "UP") {
+	//	lookDirection = glm::vec3(
+	//		cos(-0.6f) * sin(3.14f),
+	//		sin(-0.6f),
+	//		cos(-0.6f) * cos(3.14f)
+	//	);
+	//} else if (direction == "DOWN") {
+	//	lookDirection = glm::vec3(
+	//		cos(-0.6f) * sin(0.0f),
+	//		sin(-0.6f),
+	//		cos(-0.6f) * cos(0.0f)
+	//	);
+	//} else if (direction == "LEFT") {
+	//	lookDirection = glm::vec3(
+	//		cos(-0.6f) * sin(-3.14f / 2.0f),
+	//		sin(-0.6f),
+	//		cos(-0.6f) * cos(-3.14f / 2.0f)
+	//	);
+	//} else if (direction == "RIGHT") {
+	//	lookDirection = glm::vec3(
+	//		cos(-0.6f) * sin(3.14f / 2.0f),
+	//		sin(-0.6f),
+	//		cos(-0.6f) * cos(3.14f / 2.0f)
+	//	);
+	//}
 
 
 	//lookDirection = glm::vec3(
@@ -133,4 +159,51 @@ void computeMVP(glm::mat4 *MVP, Snake *snek) {
 	glm::mat4 Model = glm::mat4(1.0f);
 	// Our ModelViewProjection : multiplication of our 3 matrices
 	*MVP = Projection * View * Model; // Remember, matrix multiplication is the other way around
+}
+
+void turnCamera(int sign, std::string dir) {
+
+
+
+
+	if (sign == 2) {
+		resetCamera();
+	} else {
+
+			/*
+				3.14
+		-3.14/2		3.14/2
+				 0
+	*/
+
+	/*if (dir == "UP") {
+		if (horizontalAngle == -3.14f / 2.0f) {
+			horizontalAngle += 2.0f * 3.14f;
+		}
+		turnAmount = -(horizontalAngle - 3.14f);
+	}else if (dir == "RIGHT") {
+		turnAmount = -(horizontalAngle - 3.14f / 2.0f);
+
+	} else if (dir == "DOWN") {
+		turnAmount = -horizontalAngle;
+	} else if (dir == "LEFT") {
+		if (horizontalAngle == 3.14f) {
+
+		}
+		turnAmount = -(horizontalAngle + 3.14f / 2.0f);
+	}*/
+
+
+		turnAmount += 3.14f / 2.0f * sign;
+	}
+}
+
+void resetCamera() {
+	horizontalAngle = 3.14f;
+	lookDirection = glm::vec3(
+		cos(verticalAngle) * sin(horizontalAngle),
+		sin(verticalAngle),
+		cos(verticalAngle) * cos(horizontalAngle)
+	);
+
 }

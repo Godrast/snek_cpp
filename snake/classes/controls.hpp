@@ -4,7 +4,11 @@
 #include "snake.hpp"
 
 
-void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft, bool * canPressRight, int * lastPressedLeft, int * lastPressedRight);
+void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft, bool * canPressRight);
 
-void computeMVP(glm::mat4 *MVP, Snake *snek);
+void computeMVP(glm::mat4 *MVP, Snake *snek, double timeAmount);
+
+void turnCamera(int sign, std::string dir);
+
+void resetCamera();
 #endif // !CONTROLS_HPP

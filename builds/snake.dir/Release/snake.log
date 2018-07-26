@@ -1,3 +1,9 @@
 ﻿  SnakeTheGame.cpp
+  apple.cpp
   controls.cpp
+  snake.cpp
+e:\cpp_20_07_2018\snake\classes\apple.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+e:\cpp_20_07_2018\snake\classes\apple.cpp(26): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\cpp_20_07_2018\snake\classes\apple.cpp(27): warning C4244: 'initializing': conversion from 'int' to 'float', possible loss of data
+e:\cpp_20_07_2018\snake\classes\controls.cpp(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
   snake.vcxproj -> E:\cpp_20_07_2018\builds\Release\snake.exe

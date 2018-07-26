@@ -33,7 +33,7 @@ public:
 	unsigned int getSize();
 	void addTile(float x, float y, std::string dir);
 	void addTile(Tile newTile);
-	void move(Apple *apple);
+	int move(Apple *apple);
 	void setDirection(std::string dir);
 	std::string getCurrentDirection();
 	void reset(std::string direction);
