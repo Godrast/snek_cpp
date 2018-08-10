@@ -29,11 +29,22 @@ unsigned int Snake::getSize() {
 };
 
 //save last tile before moving, after moving, if apple was eaten, add that tile to teh end
-void Snake::move(Apple *apple) {
+int Snake::move(Apple *apple) {
 	bool shouldAddTile = false;
 	bool shouldReset = false;
+
+	int turnCamera = 0;
+
 	if (getCurrentDirection() != nextDirection) {
+
+		if ((getCurrentDirection() == "UP" && nextDirection == "RIGHT") || (getCurrentDirection() == "RIGHT" && nextDirection == "DOWN") || (getCurrentDirection() == "DOWN" && nextDirection == "LEFT") || (getCurrentDirection() == "LEFT" && nextDirection == "UP")) {
+			turnCamera = -1;
+		} else {
+			turnCamera = 1;
+		}
+		//turnCamera = 1;
 		body.at(0).direction = nextDirection;
+
 	}
 	Tile lastTile = body.at(getSize() - 1);
 
@@ -66,11 +77,13 @@ void Snake::move(Apple *apple) {
 			float z = it->position[3].z;
 			if (x < -14.0f || x > 14.0f || z > 11.0f || z < -10.0f) {
 				shouldReset = true;
+				turnCamera = 2;
 			} else if (apple->getPosition() == it->position) {
 				shouldAddTile = true;
 			} else {
 				if (findTile(*it)) {
 					shouldReset = true;
+					turnCamera = 2;
 				}
 
 			}
@@ -85,6 +98,7 @@ void Snake::move(Apple *apple) {
 	if (shouldReset) {
 		reset("UP");
 	}
+	return turnCamera;
 };
 
 void Snake::setDirection(std::string dir) {
