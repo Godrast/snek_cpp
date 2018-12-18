@@ -25,7 +25,6 @@ GLFWwindow* window;
 
 
 
-
 #pragma comment(linker, "/SUBSYSTEM:windows /ENTRY:mainCRTStartup")
 
 
@@ -182,6 +181,7 @@ int main(void) {
 	glBufferData(GL_ELEMENT_ARRAY_BUFFER, sizeof(indecies_square), indecies_square, GL_STATIC_DRAW);
 
 	double timeStamp = glfwGetTime();
+	double turnTimeStamp = timeStamp;
 
 	double frameRateTimestamp = glfwGetTime();
 
@@ -190,20 +190,33 @@ int main(void) {
 	bool canPressLeft = true;
 	bool canPressRight = true;
 
+	double turnSpeed = gameSpeed + (1 / snake.getSpeed()) / 2;
+
+
+
 	int frameCount = 0;
 
 	do {
 		frameCount++;
 		checkForKeyboardInput(window, &snake, &canPressLeft, &canPressRight);
 		double currentTimeStamp = glfwGetTime();
-		if (currentTimeStamp - timeStamp > gameSpeed) {
-			timeStamp = currentTimeStamp;
-			int turn = snake.move(&apple);
+
+		if (currentTimeStamp - turnTimeStamp > turnSpeed && snake.getCurrentDirection() != snake.getNextDirection()) {
+			int turn = snake.applyDirectionChange();
 			if (turn != 0) {
-				turnCamera(turn, snake.getCurrentDirection());
+				turnCamera(turn);
 			}
-			//printf("Snake head y:%f\tx:%f\n", snake.getBody().at(0).y, snake.getBody().at(0).x);
+			turnTimeStamp = currentTimeStamp;
 		}
+
+		//if (currentTimeStamp - timeStamp > gameSpeed) {
+		int turn = snake.move(&apple, currentTimeStamp - timeStamp);
+		if (turn != 0) {
+			resetCamera();
+		}
+		timeStamp = currentTimeStamp;
+		//printf("Snake head y:%f\tx:%f\n", snake.getBody().at(0).y, snake.getBody().at(0).x);
+	//}
 
 		if (currentTimeStamp - frameRateTimestamp > 1.0f) {
 			printf("\nFRAME RATE: %d\n\n", frameCount);
@@ -214,6 +227,8 @@ int main(void) {
 		glClear(GL_COLOR_BUFFER_BIT | GL_DEPTH_BUFFER_BIT);
 
 		computeMVP(&MVP, &snake, currentTimeStamp - turnCameraTimeStamp);
+		turnCameraTimeStamp = currentTimeStamp;
+
 
 		// Use our shader
 		glUseProgram(programSnake);
@@ -266,8 +281,6 @@ int main(void) {
 		// Swap buffers
 		glfwSwapBuffers(window);
 		glfwPollEvents();
-
-		turnCameraTimeStamp = currentTimeStamp;
 
 	} // Check if the ESC key was pressed or the window was closed
 	while (glfwGetKey(window, GLFW_KEY_ESCAPE) != GLFW_PRESS &&

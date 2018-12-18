@@ -3,8 +3,9 @@
 #include "controls.hpp"
 
 
-double gameSpeed = 1.0 / 15.0;
+double gameSpeed = 1.0 / 20.0;
 float turnAmount = 0.0f;
+
 
 void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft, bool * canPressRight) {
 
@@ -58,10 +59,11 @@ void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft,
 	} else if (glfwGetKey(window, GLFW_KEY_RIGHT) == GLFW_RELEASE && glfwGetKey(window, GLFW_KEY_D) == GLFW_RELEASE) {
 		*canPressRight = true;
 	}
+
 }
 
-float horizontalAngle = 3.14f;
-float verticalAngle = -0.6f;
+double horizontalAngle = 3.14f;
+double verticalAngle = -0.6f;
 glm::vec3 lookDirection(
 	cos(verticalAngle) * sin(horizontalAngle),
 	sin(verticalAngle),
@@ -82,12 +84,12 @@ void computeMVP(glm::mat4 *MVP, Snake *snek, double timeAmount) {
 	float y = position.y;
 	float z = position.z;
 
-	std::string direction = snek->getCurrentDirection();
+	//std::string direction = snek->getCurrentDirection();
 
 
 	if (turnAmount != 0) {
 
-		float turnRate = roundf(((timeAmount / gameSpeed) * turnAmount) * 1000.0f) / 1000.0f;
+		double turnRate = roundf(((timeAmount / gameSpeed) * turnAmount) * 1000.0f) / 1000.0f;
 		turnAmount = roundf(turnAmount * 1000.0f - turnRate * 1000.0f) / 1000.0f;
 		horizontalAngle += turnRate;
 
@@ -161,46 +163,16 @@ void computeMVP(glm::mat4 *MVP, Snake *snek, double timeAmount) {
 	*MVP = Projection * View * Model; // Remember, matrix multiplication is the other way around
 }
 
-void turnCamera(int sign, std::string dir) {
+void turnCamera(int sign) {
 
+	turnAmount += 3.14f / 2.0f * sign;
 
-
-
-	if (sign == 2) {
-		resetCamera();
-	} else {
-
-			/*
-				3.14
-		-3.14/2		3.14/2
-				 0
-	*/
-
-	/*if (dir == "UP") {
-		if (horizontalAngle == -3.14f / 2.0f) {
-			horizontalAngle += 2.0f * 3.14f;
-		}
-		turnAmount = -(horizontalAngle - 3.14f);
-	}else if (dir == "RIGHT") {
-		turnAmount = -(horizontalAngle - 3.14f / 2.0f);
-
-	} else if (dir == "DOWN") {
-		turnAmount = -horizontalAngle;
-	} else if (dir == "LEFT") {
-		if (horizontalAngle == 3.14f) {
-
-		}
-		turnAmount = -(horizontalAngle + 3.14f / 2.0f);
-	}*/
-
-
-		turnAmount += 3.14f / 2.0f * sign;
-	}
 }
 
 void resetCamera() {
 	horizontalAngle = 3.14f;
-	lookDirection = glm::vec3(
+	turnAmount = 0.0f;
+	lookDirection = glm::vec3 (
 		cos(verticalAngle) * sin(horizontalAngle),
 		sin(verticalAngle),
 		cos(verticalAngle) * cos(horizontalAngle)

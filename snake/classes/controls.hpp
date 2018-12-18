@@ -8,7 +8,7 @@ void checkForKeyboardInput(GLFWwindow *window, Snake *snek, bool * canPressLeft,
 
 void computeMVP(glm::mat4 *MVP, Snake *snek, double timeAmount);
 
-void turnCamera(int sign, std::string dir);
+void turnCamera(int sign);
 
 void resetCamera();
 #endif // !CONTROLS_HPP

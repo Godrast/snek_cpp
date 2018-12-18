@@ -9,22 +9,16 @@ void Apple::spawnApple(Snake *snek) {
 	std::vector<Tile> snakeBody = snek->getBody();
 	bool alreadyExists = false;
 	do {
-		alreadyExists = false;
 		randomPos();
-		for (std::vector<Tile>::iterator it = snakeBody.begin(); it != snakeBody.end(); ++it) {
-			if (it->position == position) {
-				alreadyExists = true;
-				break;
-			}
-		}
+		alreadyExists = snek->isColidingWithSnakeBody(position, true);
 	} while (alreadyExists);
-	
+
 
 }
 
 void Apple::randomPos() {
-	float randX = rand() % 27 - 13;
-	float randZ = rand() % 20 - 9;
+	float randX = (rand() % 270) / 10.0 - 13;
+	float randZ = (rand() % 200) / 10.0 - 9;
 	position = glm::translate(glm::mat4(), glm::vec3(randX, 0.0f, randZ));
 }
 
