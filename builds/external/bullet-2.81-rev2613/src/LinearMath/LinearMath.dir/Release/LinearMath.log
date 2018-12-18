@@ -1,0 +1,16 @@
+﻿  Building Custom Rule E:/cpp_20_07_2018/external/bullet-2.81-rev2613/src/LinearMath/CMakeLists.txt
+  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/LinearMath/CMakeFiles/generate.stamp is up-to-date.
+  btAlignedAllocator.cpp
+  btConvexHull.cpp
+  btConvexHullComputer.cpp
+  btGeometryUtil.cpp
+  btPolarDecomposition.cpp
+  btQuickprof.cpp
+e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'btScalar', possible loss of data
+e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(63): warning C4244: 'initializing': conversion from 'double' to 'const btScalar', possible loss of data
+e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\linearmath\btpolardecomposition.cpp(66): warning C4244: 'argument': conversion from 'double' to 'const btScalar', possible loss of data
+  btSerializer.cpp
+  btVector3.cpp
+e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\linearmath\btvector3.cpp(46): warning C4838: conversion from 'int' to 'const unsigned char' requires a narrowing conversion
+e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\linearmath\btvector3.cpp(431): warning C4838: conversion from 'int' to 'const unsigned char' requires a narrowing conversion
+  LinearMath.vcxproj -> E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\LinearMath\Release\LinearMath.lib
