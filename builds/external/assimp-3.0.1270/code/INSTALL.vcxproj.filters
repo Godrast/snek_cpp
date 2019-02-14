@@ -1,13 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\builds\CMakeFiles\c6a1300a0617b5fbf856369502708fb3\INSTALL_force.rule">
+    <CustomBuild Include="D:\c++\snek_cpp\builds\CMakeFiles\566254f5d400974069c703f1d7fc7300\INSTALL_force.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4A484672-81D3-3AEE-8107-E07D2EB9896D}</UniqueIdentifier>
+      <UniqueIdentifier>{D94BABD0-7AE6-3706-9B0D-340FAB505702}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

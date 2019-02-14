@@ -1,87 +1,87 @@
 Determining if the include file pthread.h exists failed with the following output:
-Change Dir: E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp
+Change Dir: D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/visual_studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_99222.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine 15.6.85.37198 dla platformy .NET Framework
-Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_3b179.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Kompilacja rozpoczęła się 20.07.2018 16:06:02.
-Projekt "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_99222.vcxproj" w węźle 1 (domyślne elementy docelowe).
+Build started 14.02.2019 11:38:48.
+Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_3b179.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Tworzenie katalogu "cmTC_99222.dir\Debug\".
-  Tworzenie katalogu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\".
-  Tworzenie katalogu "cmTC_99222.dir\Debug\cmTC_99222.tlog\".
+  Creating directory "cmTC_3b179.dir\Debug\".
+  Creating directory "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_3b179.dir\Debug\cmTC_3b179.tlog\".
 InitializeBuildStatus:
-  Trwa tworzenie "cmTC_99222.dir\Debug\cmTC_99222.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+  Creating "cmTC_3b179.dir\Debug\cmTC_3b179.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\visual_studio\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99222.dir\Debug\\" /Fd"cmTC_99222.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.13.26129 dla architektury x86
-  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b179.dir\Debug\\" /Fd"cmTC_3b179.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27024.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_99222.dir\Debug\\" /Fd"cmTC_99222.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
   CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_3b179.dir\Debug\\" /Fd"cmTC_3b179.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
   
-e:\cpp_20_07_2018\builds\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_99222.vcxproj]
-Kompilowanie projektu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_99222.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_3b179.vcxproj]
+Done Building Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_3b179.vcxproj" (default targets) -- FAILED.
 
-Kompilacja NIE POWIODŁA SIĘ.
+Build FAILED.
 
-"E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_99222.vcxproj" (domyślny element docelowy) (1)->
-(element docelowy ClCompile) -> 
-  e:\cpp_20_07_2018\builds\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'pthread.h': No such file or directory [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_99222.vcxproj]
+"D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_3b179.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'pthread.h': No such file or directory [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_3b179.vcxproj]
 
-    Ostrzeżenia: 0
-    Liczba błędów: 1
+    0 Warning(s)
+    1 Error(s)
 
-Czas, który upłynął: 00:00:00.78
+Time Elapsed 00:00:01.09
 
 
 Determining size of off64_t failed with the following output:
-Change Dir: E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp
+Change Dir: D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/visual_studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_e3b92.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine 15.6.85.37198 dla platformy .NET Framework
-Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_5fde7.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Kompilacja rozpoczęła się 20.07.2018 16:06:08.
-Projekt "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj" w węźle 1 (domyślne elementy docelowe).
+Build started 14.02.2019 11:38:56.
+Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Tworzenie katalogu "cmTC_e3b92.dir\Debug\".
-  Tworzenie katalogu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\".
-  Tworzenie katalogu "cmTC_e3b92.dir\Debug\cmTC_e3b92.tlog\".
+  Creating directory "cmTC_5fde7.dir\Debug\".
+  Creating directory "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_5fde7.dir\Debug\cmTC_5fde7.tlog\".
 InitializeBuildStatus:
-  Trwa tworzenie "cmTC_e3b92.dir\Debug\cmTC_e3b92.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+  Creating "cmTC_5fde7.dir\Debug\cmTC_5fde7.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\visual_studio\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3b92.dir\Debug\\" /Fd"cmTC_e3b92.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CheckTypeSize\OFF64_T.c
-  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.13.26129 dla architektury x86
-  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fde7.dir\Debug\\" /Fd"cmTC_5fde7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27024.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_e3b92.dir\Debug\\" /Fd"cmTC_e3b92.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CheckTypeSize\OFF64_T.c
   OFF64_T.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _LARGEFILE64_SOURCE=1 /D HAVE_SYS_TYPES_H /D HAVE_STDINT_H /D HAVE_STDDEF_H /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_5fde7.dir\Debug\\" /Fd"cmTC_5fde7.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c
   
-e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(25): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(26): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(27): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(28): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(29): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-Kompilowanie projektu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+Done Building Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj" (default targets) -- FAILED.
 
-Kompilacja NIE POWIODŁA SIĘ.
+Build FAILED.
 
-"E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj" (domyślny element docelowy) (1)->
-(element docelowy ClCompile) -> 
-  e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(25): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-  e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(26): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-  e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(27): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-  e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(28): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
-  e:\cpp_20_07_2018\builds\cmakefiles\checktypesize\off64_t.c(29): error C2065: "off64_t": niezadeklarowany identyfikator [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_e3b92.vcxproj]
+"D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(25): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+  D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(26): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+  D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(27): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+  D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(28): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
+  D:\c++\snek_cpp\builds\CMakeFiles\CheckTypeSize\OFF64_T.c(29): error C2065: 'off64_t': undeclared identifier [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_5fde7.vcxproj]
 
-    Ostrzeżenia: 0
-    Liczba błędów: 5
+    0 Warning(s)
+    5 Error(s)
 
-Czas, który upłynął: 00:00:00.72
+Time Elapsed 00:00:01.09
 
-E:/cpp_20_07_2018/builds/CMakeFiles/CheckTypeSize/OFF64_T.c:
+D:/c++/snek_cpp/builds/CMakeFiles/CheckTypeSize/OFF64_T.c:
 #include <sys/types.h>
 #include <stdint.h>
 #include <stddef.h>
@@ -131,82 +131,82 @@ int main(int argc, char *argv[])
 
 
 Determining if the function fseeko exists failed with the following output:
-Change Dir: E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp
+Change Dir: D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/visual_studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_82bd4.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine 15.6.85.37198 dla platformy .NET Framework
-Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_8d3e0.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Kompilacja rozpoczęła się 20.07.2018 16:06:09.
-Projekt "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj" w węźle 1 (domyślne elementy docelowe).
+Build started 14.02.2019 11:38:58.
+Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Tworzenie katalogu "cmTC_82bd4.dir\Debug\".
-  Tworzenie katalogu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\".
-  Tworzenie katalogu "cmTC_82bd4.dir\Debug\cmTC_82bd4.tlog\".
+  Creating directory "cmTC_8d3e0.dir\Debug\".
+  Creating directory "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_8d3e0.dir\Debug\cmTC_8d3e0.tlog\".
 InitializeBuildStatus:
-  Trwa tworzenie "cmTC_82bd4.dir\Debug\cmTC_82bd4.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+  Creating "cmTC_8d3e0.dir\Debug\cmTC_8d3e0.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\visual_studio\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82bd4.dir\Debug\\" /Fd"cmTC_82bd4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
-  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.13.26129 dla architektury x86
-  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d3e0.dir\Debug\\" /Fd"cmTC_8d3e0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27024.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_82bd4.dir\Debug\\" /Fd"cmTC_82bd4.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue "C:\Program Files\CMake\share\cmake-3.12\Modules\CheckFunctionExists.c"
   CheckFunctionExists.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D CHECK_FUNCTION_EXISTS=fseeko /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_8d3e0.dir\Debug\\" /Fd"cmTC_8d3e0.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue "D:\CMake\share\cmake-3.13\Modules\CheckFunctionExists.c"
   
 Link:
-  E:\visual_studio\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\cmTC_82bd4.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp/Debug/cmTC_82bd4.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp/Debug/cmTC_82bd4.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_82bd4.dir\Debug\CheckFunctionExists.obj
-CheckFunctionExists.obj : error LNK2019: nierozpoznany zewnŕtrzny symbol _fseeko przywo│any w funkcji _main [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj]
-E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\cmTC_82bd4.exe : fatal error LNK1120: liczba nierozpoznanych elementˇw zewnŕtrznych: 1 [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj]
-Kompilowanie projektu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\link.exe /ERRORREPORT:QUEUE /OUT:"D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\cmTC_8d3e0.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp/Debug/cmTC_8d3e0.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp/Debug/cmTC_8d3e0.lib" /MACHINE:X86 /SAFESEH  /machine:X86 cmTC_8d3e0.dir\Debug\CheckFunctionExists.obj
+CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj]
+D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\cmTC_8d3e0.exe : fatal error LNK1120: 1 unresolved externals [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj]
+Done Building Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj" (default targets) -- FAILED.
 
-Kompilacja NIE POWIODŁA SIĘ.
+Build FAILED.
 
-"E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj" (domyślny element docelowy) (1)->
-(element docelowy Link) -> 
-  CheckFunctionExists.obj : error LNK2019: nierozpoznany zewnŕtrzny symbol _fseeko przywo│any w funkcji _main [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj]
-  E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\cmTC_82bd4.exe : fatal error LNK1120: liczba nierozpoznanych elementˇw zewnŕtrznych: 1 [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_82bd4.vcxproj]
+"D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj" (default target) (1) ->
+(Link target) -> 
+  CheckFunctionExists.obj : error LNK2019: unresolved external symbol _fseeko referenced in function _main [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj]
+  D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\cmTC_8d3e0.exe : fatal error LNK1120: 1 unresolved externals [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_8d3e0.vcxproj]
 
-    Ostrzeżenia: 0
-    Liczba błędów: 2
+    0 Warning(s)
+    2 Error(s)
 
-Czas, który upłynął: 00:00:01.02
+Time Elapsed 00:00:01.44
 
 
 Determining if the include file unistd.h exists failed with the following output:
-Change Dir: E:/cpp_20_07_2018/builds/CMakeFiles/CMakeTmp
+Change Dir: D:/c++/snek_cpp/builds/CMakeFiles/CMakeTmp
 
-Run Build Command:"E:/visual_studio/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_46b45.vcxproj" "/p:Configuration=Debug" "/p:VisualStudioVersion=15.0"
-Microsoft (R) Build Engine 15.6.85.37198 dla platformy .NET Framework
-Copyright (C) Microsoft Corporation. Wszelkie prawa zastrzeżone.
+Run Build Command:"C:/Program Files (x86)/Microsoft Visual Studio/2017/Community/MSBuild/15.0/Bin/MSBuild.exe" "cmTC_0d66d.vcxproj" "/p:Configuration=Debug" "/p:Platform=Win32" "/p:VisualStudioVersion=15.0"
+Microsoft (R) Build Engine version 15.9.20+g88f5fadfbe for .NET Framework
+Copyright (C) Microsoft Corporation. All rights reserved.
 
-Kompilacja rozpoczęła się 20.07.2018 16:06:10.
-Projekt "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_46b45.vcxproj" w węźle 1 (domyślne elementy docelowe).
+Build started 14.02.2019 11:38:59.
+Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_0d66d.vcxproj" on node 1 (default targets).
 PrepareForBuild:
-  Tworzenie katalogu "cmTC_46b45.dir\Debug\".
-  Tworzenie katalogu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\Debug\".
-  Tworzenie katalogu "cmTC_46b45.dir\Debug\cmTC_46b45.tlog\".
+  Creating directory "cmTC_0d66d.dir\Debug\".
+  Creating directory "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\Debug\".
+  Creating directory "cmTC_0d66d.dir\Debug\cmTC_0d66d.tlog\".
 InitializeBuildStatus:
-  Trwa tworzenie "cmTC_46b45.dir\Debug\cmTC_46b45.tlog\unsuccessfulbuild", ponieważ określono "AlwaysCreate".
+  Creating "cmTC_0d66d.dir\Debug\cmTC_0d66d.tlog\unsuccessfulbuild" because "AlwaysCreate" was specified.
 ClCompile:
-  E:\visual_studio\VC\Tools\MSVC\14.13.26128\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46b45.dir\Debug\\" /Fd"cmTC_46b45.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
-  Microsoft (R) Kompilator optymalizujący C/C++, wersja 19.13.26129 dla architektury x86
-  Copyright (C) Microsoft Corporation. Wszystkie prawa zastrzeżone.
+  C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\VC\Tools\MSVC\14.16.27023\bin\HostX86\x86\CL.exe /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d66d.dir\Debug\\" /Fd"cmTC_0d66d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
+  Microsoft (R) C/C++ Optimizing Compiler Version 19.16.27024.1 for x86
+  Copyright (C) Microsoft Corporation.  All rights reserved.
   
-  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_46b45.dir\Debug\\" /Fd"cmTC_46b45.dir\Debug\vc141.pdb" /Gd /TC /analyze- /FC /errorReport:queue E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
   CheckIncludeFile.c
+  cl /c /Zi /W3 /WX- /diagnostics:classic /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Zc:inline /Fo"cmTC_0d66d.dir\Debug\\" /Fd"cmTC_0d66d.dir\Debug\vc141.pdb" /Gd /TC /analyze- /errorReport:queue D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c
   
-e:\cpp_20_07_2018\builds\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'unistd.h': No such file or directory [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_46b45.vcxproj]
-Kompilowanie projektu "E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_46b45.vcxproj" wykonane (domyślne elementy docelowe) - NIEPOWODZENIE.
+D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_0d66d.vcxproj]
+Done Building Project "D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_0d66d.vcxproj" (default targets) -- FAILED.
 
-Kompilacja NIE POWIODŁA SIĘ.
+Build FAILED.
 
-"E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_46b45.vcxproj" (domyślny element docelowy) (1)->
-(element docelowy ClCompile) -> 
-  e:\cpp_20_07_2018\builds\cmakefiles\cmaketmp\checkincludefile.c(1): fatal error C1083: Nie można otworzyć pliku dołącz: 'unistd.h': No such file or directory [E:\cpp_20_07_2018\builds\CMakeFiles\CMakeTmp\cmTC_46b45.vcxproj]
+"D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_0d66d.vcxproj" (default target) (1) ->
+(ClCompile target) -> 
+  D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\CheckIncludeFile.c(1): fatal error C1083: Cannot open include file: 'unistd.h': No such file or directory [D:\c++\snek_cpp\builds\CMakeFiles\CMakeTmp\cmTC_0d66d.vcxproj]
 
-    Ostrzeżenia: 0
-    Liczba błędów: 1
+    0 Warning(s)
+    1 Error(s)
 
-Czas, który upłynął: 00:00:00.71
+Time Elapsed 00:00:01.09
 
 

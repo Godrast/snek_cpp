@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018
+# Install script for directory: D:/c++/snek_cpp
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/cpp_20_07_2018/builds/external/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/cmake_install.cmake")
 
 endif()
 
@@ -46,5 +46,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "E:/cpp_20_07_2018/builds/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "D:/c++/snek_cpp/builds/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

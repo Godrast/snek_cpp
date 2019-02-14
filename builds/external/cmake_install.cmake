@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018/external
+# Install script for directory: D:/c++/snek_cpp/external
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("E:/cpp_20_07_2018/builds/external/glfw-3.1.2/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
-  include("E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/glfw-3.1.2/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/assimp-3.0.1270/contrib/zlib/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/bullet-2.81-rev2613/src/BulletSoftBody/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/bullet-2.81-rev2613/src/BulletCollision/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/bullet-2.81-rev2613/src/BulletDynamics/cmake_install.cmake")
+  include("D:/c++/snek_cpp/builds/external/bullet-2.81-rev2613/src/LinearMath/cmake_install.cmake")
 
 endif()
 

@@ -1,17 +1,17 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\builds\CMakeFiles\b0f677725954965b281f104a82e57428\uninstall.rule">
+    <CustomBuild Include="D:\c++\snek_cpp\builds\CMakeFiles\493dd9559d07a85546a5c9325d0f1a20\uninstall.rule">
       <Filter>CMake Rules</Filter>
     </CustomBuild>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt" />
+    <CustomBuild Include="D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall" />
+    <None Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="CMake Rules">
-      <UniqueIdentifier>{4A484672-81D3-3AEE-8107-E07D2EB9896D}</UniqueIdentifier>
+      <UniqueIdentifier>{D94BABD0-7AE6-3706-9B0D-340FAB505702}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

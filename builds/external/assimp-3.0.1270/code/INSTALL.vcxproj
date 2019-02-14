@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{4530E392-9350-3C96-B2AC-15CA9B098EA8}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{D7DE123E-C196-3BF9-8C41-0A3F2C3A7ABB}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>INSTALL</ProjectName>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\assimp-3.0.1270\code\BoostWorkaround;D:\c++\snek_cpp\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+D:\CMake\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -85,7 +85,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\assimp-3.0.1270\code\BoostWorkaround;D:\c++\snek_cpp\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -95,7 +95,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+D:\CMake\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -107,7 +107,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\assimp-3.0.1270\code\BoostWorkaround;D:\c++\snek_cpp\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -117,7 +117,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+D:\CMake\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,7 +129,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\BoostWorkaround;E:\cpp_20_07_2018\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\assimp-3.0.1270\code\BoostWorkaround;D:\c++\snek_cpp\external\assimp-3.0.1270\code\..\contrib\unzip;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -139,7 +139,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
+D:\CMake\bin\cmake.exe -DBUILD_TYPE=$(Configuration) -P cmake_install.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -150,7 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </PostBuildEvent>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\builds\CMakeFiles\c6a1300a0617b5fbf856369502708fb3\INSTALL_force.rule">
+    <CustomBuild Include="D:\c++\snek_cpp\builds\CMakeFiles\566254f5d400974069c703f1d7fc7300\INSTALL_force.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
 cd .
@@ -161,8 +161,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/c6a1300a0617b5fbf856369502708fb3/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/566254f5d400974069c703f1d7fc7300/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
@@ -174,8 +174,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/c6a1300a0617b5fbf856369502708fb3/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/566254f5d400974069c703f1d7fc7300/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
@@ -187,8 +187,8 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/c6a1300a0617b5fbf856369502708fb3/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/566254f5d400974069c703f1d7fc7300/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"> </Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
@@ -200,19 +200,23 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/c6a1300a0617b5fbf856369502708fb3/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/566254f5d400974069c703f1d7fc7300/INSTALL_force.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\CMakeFiles\INSTALL_force</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ALL_BUILD.vcxproj">
-      <Project>{AC3E15B4-8273-3B9F-A9D1-A52EAF43084C}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ALL_BUILD.vcxproj">
+      <Project>{09131A52-CC10-3661-8C40-3C04D03AD345}</Project>
       <Name>ALL_BUILD</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

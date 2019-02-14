@@ -1,16 +1,16 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule D:/c++/snek_cpp/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/bullet-2.81-rev2613/src/BulletSoftBody/CMakeFiles/generate.stamp is up-to-date.
   btSoftBody.cpp
   btSoftBodyConcaveCollisionAlgorithm.cpp
   btSoftBodyHelpers.cpp
   btSoftBodyRigidBodyCollisionConfiguration.cpp
-  btSoftRigidCollisionAlgorithm.cpp
-  btSoftRigidDynamicsWorld.cpp
-  btSoftSoftCollisionAlgorithm.cpp
-  btDefaultSoftBodySolver.cpp
-e:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\bulletsoftbody\btsoftbodyhelpers.cpp(916): warning C4838: conversion from 'T' to 'const int' requires a narrowing conversion
+D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\BulletSoftBody\btSoftBodyHelpers.cpp(916): warning C4838: conversion from 'T' to 'const int' requires a narrowing conversion
           with
           [
               T=unsigned int
           ]
-  BulletSoftBody.vcxproj -> E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletSoftBody\Release\BulletSoftBody.lib
+  btSoftRigidCollisionAlgorithm.cpp
+  btSoftRigidDynamicsWorld.cpp
+  btSoftSoftCollisionAlgorithm.cpp
+  btDefaultSoftBodySolver.cpp
+  BulletSoftBody.vcxproj -> D:\c++\snek_cpp\builds\external\bullet-2.81-rev2613\src\BulletSoftBody\Release\BulletSoftBody.lib

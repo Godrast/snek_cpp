@@ -1,4 +1,1 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/CMakeFiles/generate.stamp is up-to-date.
-  glew.c
-  GLEW_1130.vcxproj -> E:\cpp_20_07_2018\builds\external\Debug\GLEW_1130.lib
+﻿  GLEW_1130.vcxproj -> D:\c++\snek_cpp\builds\external\Debug\GLEW_1130.lib

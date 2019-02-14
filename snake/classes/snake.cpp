@@ -15,30 +15,34 @@ std::vector<Tile> Snake::getBody() {
 
 void Snake::addTile(float x, float z, std::string dir) {
 	Tile tempTile;
-	tempTile.position = glm::translate(glm::mat4(), glm::vec3(float(x), 0.0f, float(z)));
+	tempTile.position = glm::translate(glm::mat4(), glm::vec3(x, 0.0f, z));
 	tempTile.direction = dir;
 	body.push_back(tempTile);
 };
 
-void Snake::addTile(Tile newTile) {
-	float xOffset = 0;
-	float zOffset = 0;
-	if (newTile.direction == "UP") {
+void Snake::addTile(Tile *prevTile) {
+	float xOffset = 0.0f;
+	float zOffset = 0.0f;
+	if (prevTile->direction == "UP") {
 		zOffset = 1.0;
-	} else if (newTile.direction == "DOWN") {
+	} else if (prevTile->direction == "DOWN") {
 		zOffset = -1.0;
-	} else if (newTile.direction == "LEFT") {
+	} else if (prevTile->direction == "LEFT") {
 		xOffset = 1.0;
-	} else if (newTile.direction == "RIGHT") {
+	} else if (prevTile->direction == "RIGHT") {
 		xOffset = -1.0;
 	}
 
-
-	newTile.position = glm::translate(newTile.position, glm::vec3(xOffset, 0.0f, zOffset));
+	Tile newTile;
+	newTile.direction = prevTile->direction;
+	newTile.position = glm::translate(prevTile->position, glm::vec3(xOffset, 0.0f, zOffset));
+	newTile.prevTurn = glm::mat4(NULL);
 	body.push_back(newTile);
+
 };
 
 unsigned int Snake::getSize() {
+	//std::cout << "\n" << body.size() << "\n";
 	return static_cast<unsigned int>(body.size());
 };
 
@@ -70,6 +74,7 @@ int Snake::applyDirectionChange() {
 		//turnCamera = 1;
 		body.at(0).direction = nextDirection;
 		body.at(0).prevTurn = body.at(0).position;
+		body.at(0).timeToTurn = 1 / speed;
 
 	}
 	return turnCamera;
@@ -90,7 +95,31 @@ int Snake::move(Apple *apple, float deltaTime) {
 	/*std::cout << "turned: " << turnedPos[3].x << " " << turnedPos[3].y << " " << turnedPos[3].z << "\n";
 	std::cout << "pos: " << body.at(1).position[3].x << " " << body.at(1).position[3].y << " " << body.at(1).position[3].z << "\n";*/
 
-	for (std::vector<Tile>::reverse_iterator it = body.rbegin(); it != body.rend(); it++) {
+
+
+
+	if (body.at(0).direction == "UP") {
+		//it->y += 1.0f;
+		body.at(0).position = glm::translate(body.at(0).position, glm::vec3(0.0f, 0.0f, -speed) * deltaTime);
+	} else if (body.at(0).direction == "DOWN") {
+		//it->y -= 1.0f;
+		body.at(0).position = glm::translate(body.at(0).position, glm::vec3(0.0f, 0.0f, speed) * deltaTime);
+
+	} else if (body.at(0).direction == "LEFT") {
+		//it->x -= 1.0f;
+		body.at(0).position = glm::translate(body.at(0).position, glm::vec3(-speed, 0.0f, 0.0f) * deltaTime);
+
+	} else if (body.at(0).direction == "RIGHT") {
+		//it->x += 1.0f;
+		body.at(0).position = glm::translate(body.at(0).position, glm::vec3(speed, 0.0f, 0.0f) * deltaTime);
+
+	}
+
+
+
+
+
+	for (std::vector<Tile>::reverse_iterator it = body.rbegin(); it != body.rend() - 1; it++) {
 		if (it->direction == "UP") {
 			//it->y += 1.0f;
 			it->position = glm::translate(it->position, glm::vec3(0.0f, 0.0f, -speed) * deltaTime);
@@ -108,42 +137,58 @@ int Snake::move(Apple *apple, float deltaTime) {
 
 		}
 
-		if (it + 1 != body.rend()) {
-			//it->direction = it->direction;
-			if (closeEnough(it->position, (it + 1)->prevTurn)) {
-				it->direction = (it + 1)->direction;
-				it->prevTurn = it->position;
-				//std::cout << "pos: " << it->prevTurn[3].x << " " << it->prevTurn[3].y << " " << it->prevTurn[3].z << "\n";
-				(it + 1)->prevTurn = glm::mat4(NULL);
-			}
-		} else {
-			//CHECK COLLISION
 
-			//std::cout<<"HALP: "<< glm::to_string(it->position[3])<<"\n";
-			float x = it->position[3].x;
-			float z = it->position[3].z;
-			if (x < -14.0f || x > 14.0f || z > 11.0f || z < -10.0f) {
-				shouldReset = true;
-				turnCamera = 1;
-			} else if (checkCollision(apple->getPosition(), it->position)) {
-				shouldAddTile = true;
-			} else if (isColidingWithSnakeBody(it->position)) {
-				shouldReset = true;
-				turnCamera = 1;
-			}
+		//		if (it + 1 != body.rend()) {
+		//it->direction = it->direction;
+		if ((it + 1)->timeToTurn != NULL) {
+			(it + 1)->timeToTurn -= deltaTime;
+			//std::cout << "time to turn: " << (it + 1)->timeToTurn << "\n";
 		}
+
+		if ((it + 1)->prevTurn != glm::mat4(NULL) && (it + 1)->timeToTurn < 0.005) {
+			it->direction = (it + 1)->direction;
+			it->position = (it + 1)->prevTurn;
+			if (it != body.rbegin()) {
+				it->prevTurn = (it + 0)->position;
+				it->timeToTurn = 1 / speed;
+			}
+			//it->position = (it + 1)->prevTurn;
+			//std::cout << "pos: " << it->prevTurn[3].x << " " << it->prevTurn[3].y << " " << it->prevTurn[3].z << "\n";
+			(it + 1)->prevTurn = glm::mat4(NULL);
+			(it + 1)->timeToTurn = NULL;
+		}
+		//		}
+
+
 	}
 
-	Tile lastTile = body.at(getSize() - 1);
+	//CHECK COLLISION
+
+//std::cout<<"HALP: "<< glm::to_string(it->position[3])<<"\n";
+	float x = body.at(0).position[3].x;
+	float z = body.at(0).position[3].z;
+	if (x < -14.0f || x > 14.0f || z > 11.0f || z < -10.0f) {
+		shouldReset = true;
+		turnCamera = 1;
+	} else if (checkCollision(apple->getPosition(), body.at(0).position)) {
+		shouldAddTile = true;
+	} else if (isColidingWithSnakeBody(body.at(0).position)) {
+		shouldReset = true;
+		turnCamera = 1;
+	}
+
 
 
 	if (shouldAddTile) {
-		apple->spawnApple(this);
+		Tile *lastTile = &body.at(getSize() - 1);
 		addTile(lastTile);
+
+		apple->spawnApple(this);
 	}
 	if (shouldReset) {
 		reset("UP");
 	}
+
 	return turnCamera;
 };
 
@@ -178,20 +223,24 @@ void Snake::reset(std::string direction) {
 //
 //}
 
-bool Snake::closeEnough(glm::mat4 tile1, glm::mat4 tile2) {
-
-	float x = tile1[3].x;
-	float x1 = tile2[3].x;
-
-
-	float z = tile1[3].z;
-	float z1 = tile2[3].z;
-	float dist = pow((x - x1), 2) + pow((z - z1), 2);
-	//std::cout << dist << "\n";
-
-	return dist <= 0.001;
-
-}
+//bool Snake::closeEnough(glm::mat4 tile1, glm::mat4 tile2) {
+//
+//	double x = tile1[3].x;
+//	double x1 = tile2[3].x;
+//
+//
+//	double z = tile1[3].z;
+//	double z1 = tile2[3].z;
+//	double dist = pow((x - x1), 2) + pow((z - z1), 2);
+//
+//	//std::cout << x << " " << x1 << " " << z << " " << z1 << "\n";
+//	//std::cout << dist << "\n";
+//
+//
+//
+//	return dist <= 0.001;
+//
+//}
 
 bool Snake::checkCollision(glm::mat4 tile1, glm::mat4 tile2) {
 

@@ -1,27 +1,27 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\tests\msaa.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\tests\msaa.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\deps\getopt.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\deps\getopt.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\deps\getopt.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\deps\getopt.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\glfw-3.1.2\tests\CMakeLists.txt" />
+    <CustomBuild Include="D:\c++\snek_cpp\external\glfw-3.1.2\tests\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{144BAA5E-24FE-36D7-B60D-C71A0B4A6428}</UniqueIdentifier>
+      <UniqueIdentifier>{CF33033C-3C0D-3CA7-B50A-B9E6986D0445}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+      <UniqueIdentifier>{48F9F210-89CA-384B-A660-DF098FA1B43B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

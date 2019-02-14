@@ -3,30 +3,30 @@
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>E:\cpp_20_07_2018\builds\Debug\snake.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\c++\snek_cpp\builds\Debug\snake.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>E:/cpp_20_07_2018/snake/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/c++/snek_cpp/snake/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>E:\cpp_20_07_2018\builds\Release\snake.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\c++\snek_cpp\builds\Release\snake.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>E:/cpp_20_07_2018/snake/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/c++/snek_cpp/snake/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>E:\cpp_20_07_2018\builds\MinSizeRel\snake.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\c++\snek_cpp\builds\MinSizeRel\snake.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>E:/cpp_20_07_2018/snake/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/c++/snek_cpp/snake/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <LocalDebuggerEnvironment></LocalDebuggerEnvironment>
     <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
-    <LocalDebuggerCommand>E:\cpp_20_07_2018\builds\RelWithDebInfo\snake.exe</LocalDebuggerCommand>
+    <LocalDebuggerCommand>D:\c++\snek_cpp\builds\RelWithDebInfo\snake.exe</LocalDebuggerCommand>
     <LocalDebuggerCommandArguments></LocalDebuggerCommandArguments>
-    <LocalDebuggerWorkingDirectory>E:/cpp_20_07_2018/snake/</LocalDebuggerWorkingDirectory>
+    <LocalDebuggerWorkingDirectory>D:/c++/snek_cpp/snake/</LocalDebuggerWorkingDirectory>
   </PropertyGroup>
 
 </Project>

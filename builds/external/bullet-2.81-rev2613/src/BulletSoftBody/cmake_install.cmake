@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018/external/bullet-2.81-rev2613/src/BulletSoftBody
+# Install script for directory: D:/c++/snek_cpp/external/bullet-2.81-rev2613/src/BulletSoftBody
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

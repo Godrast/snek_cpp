@@ -1,120 +1,120 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btAlignedAllocator.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btAlignedAllocator.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btConvexHull.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btConvexHull.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btConvexHullComputer.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btConvexHullComputer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btGeometryUtil.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btGeometryUtil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btQuickprof.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btQuickprof.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btSerializer.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btSerializer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btVector3.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btVector3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btAabbUtil2.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btAabbUtil2.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btAlignedAllocator.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btAlignedAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btAlignedObjectArray.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btAlignedObjectArray.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btConvexHull.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btConvexHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btConvexHullComputer.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btConvexHullComputer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btDefaultMotionState.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btDefaultMotionState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btGeometryUtil.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btGeometryUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btGrahamScan2dConvexHull.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btHashMap.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btHashMap.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btIDebugDraw.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btIDebugDraw.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btList.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btList.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btMatrix3x3.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btMatrix3x3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btMinMax.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btMinMax.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btMotionState.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btMotionState.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btPolarDecomposition.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btPoolAllocator.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btPoolAllocator.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btQuadWord.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btQuadWord.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btQuaternion.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btQuaternion.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btQuickprof.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btQuickprof.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btRandom.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btRandom.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btScalar.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btScalar.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btSerializer.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btSerializer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btStackAlloc.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btStackAlloc.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btTransform.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btTransform.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btTransformUtil.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btTransformUtil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\btVector3.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\btVector3.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt" />
+    <CustomBuild Include="D:\c++\snek_cpp\external\bullet-2.81-rev2613\src\LinearMath\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{144BAA5E-24FE-36D7-B60D-C71A0B4A6428}</UniqueIdentifier>
+      <UniqueIdentifier>{CF33033C-3C0D-3CA7-B50A-B9E6986D0445}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+      <UniqueIdentifier>{48F9F210-89CA-384B-A660-DF098FA1B43B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

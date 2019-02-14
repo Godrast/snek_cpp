@@ -1,3 +1,3 @@
-﻿  controls.cpp
-e:\cpp_20_07_2018\snake\classes\controls.cpp(90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
-  snake.vcxproj -> E:\cpp_20_07_2018\builds\Debug\snake.exe
+﻿  SnakeTheGame.cpp
+D:\c++\snek_cpp\snake\SnakeTheGame.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  snake.vcxproj -> D:\c++\snek_cpp\builds\Debug\snake.exe

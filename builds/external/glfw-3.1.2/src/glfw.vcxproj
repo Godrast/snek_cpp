@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5ED00990-A93A-3DD0-8AB0-85189688AE7F}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{48893C1A-53CC-3E8E-82B0-853F70D85709}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>glfw</ProjectName>
@@ -56,26 +56,26 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glfw.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glfw.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glfw.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.lib</TargetExt>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glfw.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">glfw3</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.lib</TargetExt>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsC</CompileAs>
@@ -87,16 +87,17 @@
       <Optimization>Disabled</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -109,7 +110,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -119,6 +120,7 @@
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -127,10 +129,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -143,7 +145,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <ExceptionHandling>
@@ -153,6 +155,7 @@
       <Optimization>MinSpace</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -161,10 +164,10 @@
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -177,7 +180,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsC</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -188,16 +191,17 @@
       <Optimization>MaxSpeed</Optimization>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;_GLFW_USE_CONFIG_H;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\glfw-3.1.2\src;E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\glfw-3.1.2\src;D:\c++\snek_cpp\builds\external\glfw-3.1.2\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -209,10 +213,10 @@
     </Lib>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -220,12 +224,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -233,12 +237,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -246,12 +250,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -259,37 +263,39 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/src/CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\src\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\context.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\init.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\input.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\monitor.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\window.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_init.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_monitor.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_time.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_tls.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_window.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\winmm_joystick.c" />
-    <ClCompile Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\wgl_context.c" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\internal.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\glfw_config.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW\glfw3.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\include\GLFW\glfw3native.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_platform.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\win32_tls.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\winmm_joystick.h" />
-    <ClInclude Include="E:\cpp_20_07_2018\external\glfw-3.1.2\src\wgl_context.h" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\context.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\init.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\input.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\monitor.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\window.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_init.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_monitor.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_time.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_tls.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_window.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\winmm_joystick.c" />
+    <ClCompile Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\wgl_context.c" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\internal.h" />
+    <ClInclude Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\glfw_config.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW\glfw3.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\include\GLFW\glfw3native.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_platform.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\win32_tls.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\winmm_joystick.h" />
+    <ClInclude Include="D:\c++\snek_cpp\external\glfw-3.1.2\src\wgl_context.h" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,75 +1,75 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\adler32.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\adler32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\compress.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\compress.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\crc32.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\crc32.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\deflate.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\deflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inffast.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inffast.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inflate.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inflate.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inftrees.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inftrees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\trees.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\trees.c">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\zutil.c">
+    <ClCompile Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\zutil.c">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\zconf.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\zconf.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\zlib.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\zlib.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\crc32.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\crc32.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\deflate.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\deflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inffast.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inffast.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inffixed.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inffixed.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inflate.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inflate.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\inftrees.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\inftrees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\trees.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\trees.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\zutil.h">
+    <ClInclude Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\zutil.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt" />
+    <CustomBuild Include="D:\c++\snek_cpp\external\assimp-3.0.1270\contrib\zlib\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Header Files">
-      <UniqueIdentifier>{144BAA5E-24FE-36D7-B60D-C71A0B4A6428}</UniqueIdentifier>
+      <UniqueIdentifier>{CF33033C-3C0D-3CA7-B50A-B9E6986D0445}</UniqueIdentifier>
     </Filter>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+      <UniqueIdentifier>{48F9F210-89CA-384B-A660-DF098FA1B43B}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC3E15B4-8273-3B9F-A9D1-A52EAF43084C}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{09131A52-CC10-3661-8C40-3C04D03AD345}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,113 +152,163 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\boing.vcxproj">
-      <Project>{B9511D96-6B6F-352A-9838-6D20A2F32E85}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{67B3229B-017A-3A0B-9049-6230219500DC}</Project>
       <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
-      <Project>{F4EBB9D8-B0F0-3720-96A1-666194C40E7F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{585314AF-EDAB-3E04-A993-3189D12B8B10}</Project>
       <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\cursor.vcxproj">
-      <Project>{FAFA565B-34F7-3092-BF59-374051047E10}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{DD18842A-BDA1-3AD6-9867-F3F96135D57B}</Project>
       <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\empty.vcxproj">
-      <Project>{9AF67E65-DEC7-3026-A56F-52BD7F0C2141}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{CC2BDD20-F3DF-37D5-8722-90211D8EF3B8}</Project>
       <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\events.vcxproj">
-      <Project>{22C69266-EB6D-38C0-990F-952A634F6F0D}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{FEEE04D0-A482-3024-8815-FF3352403D51}</Project>
       <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\gamma.vcxproj">
-      <Project>{AD574FF3-B496-394A-8149-422A974C4067}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{523EA4AE-877C-3458-87D0-98AECE79EE4F}</Project>
       <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\gears.vcxproj">
-      <Project>{1BF5682F-58F3-3701-9041-68CC68B7FAC4}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{B78F03EF-7891-3F15-9B78-C6F7984C3B5B}</Project>
       <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\glfw.vcxproj">
-      <Project>{5ED00990-A93A-3DD0-8AB0-85189688AE7F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{48893C1A-53CC-3E8E-82B0-853F70D85709}</Project>
       <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
-      <Project>{7CB028CC-933F-3CA7-A606-4DAE829EEF8C}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{78FC54D0-CEAF-3149-A2DB-74967424DE41}</Project>
       <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
-      <Project>{FDEC92A3-7997-3F9F-9944-DFC7B766E4C6}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{4CBA039E-F422-3B6F-BF9E-CC0DBD42FBA1}</Project>
       <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\iconify.vcxproj">
-      <Project>{D7194111-550E-3D0A-9836-15D45A955042}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{20E2EE32-E2C7-3C91-9DD1-B53025F92070}</Project>
       <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
-      <Project>{FE7886F2-90D1-33FE-B1DC-E910F39FB9DF}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{056BF044-8209-3487-8C7A-527B1DFF8B7E}</Project>
       <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\monitors.vcxproj">
-      <Project>{81830EFA-9BF0-3D79-83CB-E0A24CEA0837}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{696F5B18-5C5F-38E2-97D4-DD56ADD10006}</Project>
       <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\msaa.vcxproj">
-      <Project>{A7B6E2A3-41FC-3581-B00B-F248CFC50CC0}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{443D9AC8-4BA0-32AE-B70E-48F588ABAA98}</Project>
       <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\particles.vcxproj">
-      <Project>{F2409D1C-C5E1-3841-B36F-397295C37519}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{05A19C58-9C0B-3743-85EA-2DDE63FC7BB6}</Project>
       <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\reopen.vcxproj">
-      <Project>{FF169620-B3FF-34F5-A033-B49BCA851AF9}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{AC11DDF3-1CA0-3BDA-BFEC-AFB322C196C3}</Project>
       <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\sharing.vcxproj">
-      <Project>{654E05D0-C6F5-3475-9EBC-D1C2A9C0D675}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{75611B18-51FB-3AC0-AAE6-F0E7A4423FD8}</Project>
       <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\simple.vcxproj">
-      <Project>{7C803563-3389-3849-B3A1-64EA6793809F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{CA73BCE7-A07A-3A2A-AD59-3167668D06ED}</Project>
       <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\splitview.vcxproj">
-      <Project>{D626E73E-9FF0-3BAC-AE35-7A4972599165}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{4E64BA0A-A15A-3098-8D5E-07FC100C827E}</Project>
       <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\tearing.vcxproj">
-      <Project>{0AF19ABC-8475-3187-B0E4-C5463F0A43D7}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{0F43EF64-E02F-3F2D-BA96-6752CF3E50A3}</Project>
       <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\threads.vcxproj">
-      <Project>{646EB19F-B70C-3321-8603-67B76DF57410}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{9B1E982B-8D5D-3F26-83D2-0479F040B263}</Project>
       <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\title.vcxproj">
-      <Project>{997A7018-963A-305A-B513-2ACD184252CF}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{176DE21D-F694-3FF3-B540-1553091C21A5}</Project>
       <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\wave.vcxproj">
-      <Project>{5970C29B-0CDF-3D4A-B8DD-431FC134BA26}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{54DCDB73-582E-328E-BB3B-1D5C145E4285}</Project>
       <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\windows.vcxproj">
-      <Project>{7874A4FF-5954-3FCF-8C6A-2F27A7D975C2}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{B7DC2EBF-9B48-31FC-8A86-66A9A341A242}</Project>
       <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018/external/glfw-3.1.2/examples
+# Install script for directory: D:/c++/snek_cpp/external/glfw-3.1.2/examples
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

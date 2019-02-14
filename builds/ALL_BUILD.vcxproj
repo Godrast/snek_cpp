@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{AC3E15B4-8273-3B9F-A9D1-A52EAF43084C}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{09131A52-CC10-3661-8C40-3C04D03AD345}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>ALL_BUILD</ProjectName>
@@ -63,7 +63,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -73,7 +73,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -83,7 +83,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -93,7 +93,7 @@
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -102,143 +102,267 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <CustomBuild Include="D:\c++\snek_cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
+      <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd</Command>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
+      <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
+    </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
-      <Project>{FF2BFC20-0D4E-3080-A9A9-176629DFE6ED}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj">
+      <Project>{56EAB5AE-59C4-36FC-9647-657A4E3CC50A}</Project>
       <Name>ANTTWEAKBAR_116_OGLCORE_GLFW</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
-      <Project>{903DD54B-7AAC-3A33-9D48-C95AEEFA0994}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\bullet-2.81-rev2613\src\BulletCollision\BulletCollision.vcxproj">
+      <Project>{55AC3CAF-F063-31D9-A5BB-7626693BCC58}</Project>
       <Name>BulletCollision</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
-      <Project>{FD6DB71B-1066-308A-A198-2DE1B78B9B3C}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\bullet-2.81-rev2613\src\BulletDynamics\BulletDynamics.vcxproj">
+      <Project>{286686BA-0926-3E35-B669-303A7A7BB571}</Project>
       <Name>BulletDynamics</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
-      <Project>{76E4B076-6E2A-3A24-A584-61E256846E85}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\bullet-2.81-rev2613\src\BulletSoftBody\BulletSoftBody.vcxproj">
+      <Project>{A78A502B-F0F2-3001-997F-8194CFFCF70B}</Project>
       <Name>BulletSoftBody</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\GLEW_1130.vcxproj">
-      <Project>{E5E8CD3B-1ED3-3685-ACB2-24245C00D84F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\GLEW_1130.vcxproj">
+      <Project>{B08032AD-F79E-32F6-B278-8D437A3728E2}</Project>
       <Name>GLEW_1130</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
-      <Project>{B391A4EF-10B5-35DF-9322-D1C58DBC9162}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\bullet-2.81-rev2613\src\LinearMath\LinearMath.vcxproj">
+      <Project>{DA471C74-AAD6-3C4C-B33C-D225ADDA3C20}</Project>
       <Name>LinearMath</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\assimp.vcxproj">
-      <Project>{5D23CE8C-BAB8-30A1-AA14-628BABB49713}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\assimp.vcxproj">
+      <Project>{4C83BBBB-85E6-30F1-92A1-F139BDED17A9}</Project>
       <Name>assimp</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\boing.vcxproj">
-      <Project>{B9511D96-6B6F-352A-9838-6D20A2F32E85}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\boing.vcxproj">
+      <Project>{67B3229B-017A-3A0B-9049-6230219500DC}</Project>
       <Name>boing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
-      <Project>{F4EBB9D8-B0F0-3720-96A1-666194C40E7F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\clipboard.vcxproj">
+      <Project>{585314AF-EDAB-3E04-A993-3189D12B8B10}</Project>
       <Name>clipboard</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\cursor.vcxproj">
-      <Project>{FAFA565B-34F7-3092-BF59-374051047E10}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\cursor.vcxproj">
+      <Project>{DD18842A-BDA1-3AD6-9867-F3F96135D57B}</Project>
       <Name>cursor</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\empty.vcxproj">
-      <Project>{9AF67E65-DEC7-3026-A56F-52BD7F0C2141}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\empty.vcxproj">
+      <Project>{CC2BDD20-F3DF-37D5-8722-90211D8EF3B8}</Project>
       <Name>empty</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\events.vcxproj">
-      <Project>{22C69266-EB6D-38C0-990F-952A634F6F0D}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\events.vcxproj">
+      <Project>{FEEE04D0-A482-3024-8815-FF3352403D51}</Project>
       <Name>events</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\gamma.vcxproj">
-      <Project>{AD574FF3-B496-394A-8149-422A974C4067}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\gamma.vcxproj">
+      <Project>{523EA4AE-877C-3458-87D0-98AECE79EE4F}</Project>
       <Name>gamma</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\gears.vcxproj">
-      <Project>{1BF5682F-58F3-3701-9041-68CC68B7FAC4}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\gears.vcxproj">
+      <Project>{B78F03EF-7891-3F15-9B78-C6F7984C3B5B}</Project>
       <Name>gears</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\glfw.vcxproj">
-      <Project>{5ED00990-A93A-3DD0-8AB0-85189688AE7F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{48893C1A-53CC-3E8E-82B0-853F70D85709}</Project>
       <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
-      <Project>{7CB028CC-933F-3CA7-A606-4DAE829EEF8C}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\glfwinfo.vcxproj">
+      <Project>{78FC54D0-CEAF-3149-A2DB-74967424DE41}</Project>
       <Name>glfwinfo</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
-      <Project>{FDEC92A3-7997-3F9F-9944-DFC7B766E4C6}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\heightmap.vcxproj">
+      <Project>{4CBA039E-F422-3B6F-BF9E-CC0DBD42FBA1}</Project>
       <Name>heightmap</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\iconify.vcxproj">
-      <Project>{D7194111-550E-3D0A-9836-15D45A955042}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\iconify.vcxproj">
+      <Project>{20E2EE32-E2C7-3C91-9DD1-B53025F92070}</Project>
       <Name>iconify</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
-      <Project>{FE7886F2-90D1-33FE-B1DC-E910F39FB9DF}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\joysticks.vcxproj">
+      <Project>{056BF044-8209-3487-8C7A-527B1DFF8B7E}</Project>
       <Name>joysticks</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\monitors.vcxproj">
-      <Project>{81830EFA-9BF0-3D79-83CB-E0A24CEA0837}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\monitors.vcxproj">
+      <Project>{696F5B18-5C5F-38E2-97D4-DD56ADD10006}</Project>
       <Name>monitors</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\msaa.vcxproj">
-      <Project>{A7B6E2A3-41FC-3581-B00B-F248CFC50CC0}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\msaa.vcxproj">
+      <Project>{443D9AC8-4BA0-32AE-B70E-48F588ABAA98}</Project>
       <Name>msaa</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\particles.vcxproj">
-      <Project>{F2409D1C-C5E1-3841-B36F-397295C37519}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\particles.vcxproj">
+      <Project>{05A19C58-9C0B-3743-85EA-2DDE63FC7BB6}</Project>
       <Name>particles</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\reopen.vcxproj">
-      <Project>{FF169620-B3FF-34F5-A033-B49BCA851AF9}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\reopen.vcxproj">
+      <Project>{AC11DDF3-1CA0-3BDA-BFEC-AFB322C196C3}</Project>
       <Name>reopen</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\sharing.vcxproj">
-      <Project>{654E05D0-C6F5-3475-9EBC-D1C2A9C0D675}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\sharing.vcxproj">
+      <Project>{75611B18-51FB-3AC0-AAE6-F0E7A4423FD8}</Project>
       <Name>sharing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\simple.vcxproj">
-      <Project>{7C803563-3389-3849-B3A1-64EA6793809F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\simple.vcxproj">
+      <Project>{CA73BCE7-A07A-3A2A-AD59-3167668D06ED}</Project>
       <Name>simple</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\snake.vcxproj">
-      <Project>{9217CCD6-6BE8-3447-8CF1-605B535E1942}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\snake.vcxproj">
+      <Project>{7B0DC110-ADB1-3A98-8BA0-3D702163C45D}</Project>
       <Name>snake</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\splitview.vcxproj">
-      <Project>{D626E73E-9FF0-3BAC-AE35-7A4972599165}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\splitview.vcxproj">
+      <Project>{4E64BA0A-A15A-3098-8D5E-07FC100C827E}</Project>
       <Name>splitview</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\tearing.vcxproj">
-      <Project>{0AF19ABC-8475-3187-B0E4-C5463F0A43D7}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\tearing.vcxproj">
+      <Project>{0F43EF64-E02F-3F2D-BA96-6752CF3E50A3}</Project>
       <Name>tearing</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\threads.vcxproj">
-      <Project>{646EB19F-B70C-3321-8603-67B76DF57410}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\threads.vcxproj">
+      <Project>{9B1E982B-8D5D-3F26-83D2-0479F040B263}</Project>
       <Name>threads</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\title.vcxproj">
-      <Project>{997A7018-963A-305A-B513-2ACD184252CF}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\title.vcxproj">
+      <Project>{176DE21D-F694-3FF3-B540-1553091C21A5}</Project>
       <Name>title</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\wave.vcxproj">
-      <Project>{5970C29B-0CDF-3D4A-B8DD-431FC134BA26}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\wave.vcxproj">
+      <Project>{54DCDB73-582E-328E-BB3B-1D5C145E4285}</Project>
       <Name>wave</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\tests\windows.vcxproj">
-      <Project>{7874A4FF-5954-3FCF-8C6A-2F27A7D975C2}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\windows.vcxproj">
+      <Project>{B7DC2EBF-9B48-31FC-8A86-66A9A341A242}</Project>
       <Name>windows</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
-      <Project>{D99AB0F4-CA8D-31F5-9F95-2520BDC7C7CF}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\assimp-3.0.1270\contrib\zlib\zlib.vcxproj">
+      <Project>{F21013DE-D048-3DD6-B69C-FDCF946A5D55}</Project>
       <Name>zlib</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

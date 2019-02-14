@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{5964D0E0-8725-3EF1-8F79-C82AB55CE291}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{B2A2B938-0C94-31E7-A7E6-1B69BA96F5C7}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>uninstall</ProjectName>
@@ -102,10 +102,10 @@
     </Midl>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\builds\CMakeFiles\b0f677725954965b281f104a82e57428\uninstall.rule">
+    <CustomBuild Include="D:\c++\snek_cpp\builds\CMakeFiles\493dd9559d07a85546a5c9325d0f1a20\uninstall.rule">
       <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P E:/cpp_20_07_2018/builds/external/glfw-3.1.2/cmake_uninstall.cmake
+D:\CMake\bin\cmake.exe -P D:/c++/snek_cpp/builds/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -113,12 +113,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/b0f677725954965b281f104a82e57428/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/493dd9559d07a85546a5c9325d0f1a20/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P E:/cpp_20_07_2018/builds/external/glfw-3.1.2/cmake_uninstall.cmake
+D:\CMake\bin\cmake.exe -P D:/c++/snek_cpp/builds/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -126,12 +126,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/b0f677725954965b281f104a82e57428/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/493dd9559d07a85546a5c9325d0f1a20/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P E:/cpp_20_07_2018/builds/external/glfw-3.1.2/cmake_uninstall.cmake
+D:\CMake\bin\cmake.exe -P D:/c++/snek_cpp/builds/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -139,12 +139,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/b0f677725954965b281f104a82e57428/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/493dd9559d07a85546a5c9325d0f1a20/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
       <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'"></Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -P E:/cpp_20_07_2018/builds/external/glfw-3.1.2/cmake_uninstall.cmake
+D:\CMake\bin\cmake.exe -P D:/c++/snek_cpp/builds/external/glfw-3.1.2/cmake_uninstall.cmake
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -152,16 +152,16 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/builds/CMakeFiles/b0f677725954965b281f104a82e57428/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/builds/CMakeFiles/493dd9559d07a85546a5c9325d0f1a20/uninstall.rule;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -169,12 +169,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -182,12 +182,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -195,12 +195,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/external/glfw-3.1.2/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -208,18 +208,20 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/external/glfw-3.1.2/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakePackageConfigHelpers.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckIncludeFile.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckLibraryExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CheckSymbolExists.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindDoxygen.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindThreads.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\WriteBasicConfigVersionFile.cmake;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;E:\cpp_20_07_2018\external\glfw-3.1.2\cmake_uninstall.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\docs\Doxyfile.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3.pc.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw3Config.cmake.in;E:\cpp_20_07_2018\external\glfw-3.1.2\src\glfw_config.h.in;E:\cpp_20_07_2018\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/external/glfw-3.1.2/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\BasicConfigVersion-SameMajorVersion.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakePackageConfigHelpers.cmake;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.c.in;D:\CMake\share\cmake-3.13\Modules\CheckIncludeFile.cmake;D:\CMake\share\cmake-3.13\Modules\CheckLibraryExists.cmake;D:\CMake\share\cmake-3.13\Modules\CheckSymbolExists.cmake;D:\CMake\share\cmake-3.13\Modules\FindDoxygen.cmake;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\FindThreads.cmake;D:\CMake\share\cmake-3.13\Modules\WriteBasicConfigVersionFile.cmake;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;D:\c++\snek_cpp\external\glfw-3.1.2\cmake_uninstall.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\docs\Doxyfile.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3.pc.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw3Config.cmake.in;D:\c++\snek_cpp\external\glfw-3.1.2\src\glfw_config.h.in;D:\c++\snek_cpp\external\glfw-3.1.2\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <None Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\CMakeFiles\uninstall" />
+    <None Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\CMakeFiles\uninstall" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

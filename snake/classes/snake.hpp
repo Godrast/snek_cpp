@@ -19,6 +19,7 @@ struct Tile {
 	glm::mat4 position;
 	std::string direction;
 	glm::mat4 prevTurn = glm::mat4(NULL);
+	float timeToTurn = NULL;
 };
 
 class Snake {
@@ -42,7 +43,7 @@ public:
 private:
 	unsigned int getSize();
 	void addTile(float x, float y, std::string dir);
-	void addTile(Tile newTile);
+	void addTile(Tile *newTile);
 	void reset(std::string direction);
 	//bool findTile(Tile myTile);
 	bool closeEnough(glm::mat4 tile1, glm::mat4 tile2);

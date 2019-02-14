@@ -1,0 +1,4 @@
+﻿  Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/tests/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/glfw-3.1.2/tests/CMakeFiles/generate.stamp is up-to-date.
+  reopen.c
+  reopen.vcxproj -> D:\c++\snek_cpp\builds\external\glfw-3.1.2\tests\Debug\reopen.exe

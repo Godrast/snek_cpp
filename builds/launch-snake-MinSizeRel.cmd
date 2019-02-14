@@ -1,9 +1,9 @@
-cd E:/cpp_20_07_2018/snake/
+cd D:/c++/snek_cpp/snake/
 set 
 
 if [%1]==[--debugger] (
 	SHIFT
 )
 
-"E:\cpp_20_07_2018\builds\MinSizeRel\snake.exe"  
+"D:\c++\snek_cpp\builds\MinSizeRel\snake.exe"  
 pause

@@ -32,7 +32,7 @@ void spawnWall(glm::mat4 *MVP, GLuint * ProgramID, GLuint * MatrixID, unsigned i
 
 int main(void) {
 
-	float gameSpeed = float(1) / float(5);
+	float gameSpeed = 0;// float(1) / float(60);
 
 	VertexShaders vertexShaders = VertexShaders();
 	FragmentShaders fragmentShaders = FragmentShaders();
@@ -190,7 +190,7 @@ int main(void) {
 	bool canPressLeft = true;
 	bool canPressRight = true;
 
-	double turnSpeed = gameSpeed + (1 / snake.getSpeed()) / 2;
+	double turnSpeed = gameSpeed + (1 / snake.getSpeed()) * 1.5;
 
 
 

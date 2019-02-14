@@ -1,5 +1,5 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule D:/c++/snek_cpp/external/assimp-3.0.1270/contrib/zlib/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/assimp-3.0.1270/contrib/zlib/CMakeFiles/generate.stamp is up-to-date.
   adler32.c
   compress.c
   crc32.c
@@ -9,4 +9,4 @@
   inftrees.c
   trees.c
   zutil.c
-  zlib.vcxproj -> E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\contrib\zlib\Release\zlib.lib
+  zlib.vcxproj -> D:\c++\snek_cpp\builds\external\assimp-3.0.1270\contrib\zlib\Release\zlib.lib

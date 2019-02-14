@@ -19,8 +19,8 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{9217CCD6-6BE8-3447-8CF1-605B535E1942}</ProjectGuid>
-    <WindowsTargetPlatformVersion>10.0.16299.0</WindowsTargetPlatformVersion>
+    <ProjectGuid>{7B0DC110-ADB1-3A98-8BA0-3D702163C45D}</ProjectGuid>
+    <WindowsTargetPlatformVersion>10.0.17134.0</WindowsTargetPlatformVersion>
     <Keyword>Win32Proj</Keyword>
     <Platform>Win32</Platform>
     <ProjectName>snake</ProjectName>
@@ -56,25 +56,25 @@
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup>
     <_ProjectFileVersion>10.0.20506.1</_ProjectFileVersion>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\Debug\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\Debug\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">snake.dir\Debug\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">snake</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\Release\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\Release\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">snake.dir\Release\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">snake</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\MinSizeRel\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\MinSizeRel\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">snake.dir\MinSizeRel\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">snake</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">.exe</TargetExt>
     <LinkIncremental Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkIncremental>
     <GenerateManifest Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">true</GenerateManifest>
-    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\RelWithDebInfo\</OutDir>
+    <OutDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\RelWithDebInfo\</OutDir>
     <IntDir Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">snake.dir\RelWithDebInfo\</IntDir>
     <TargetName Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">snake</TargetName>
     <TargetExt Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">.exe</TargetExt>
@@ -83,7 +83,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Debug/</AssemblerListingLocation>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <CompileAs>CompileAsCpp</CompileAs>
@@ -95,16 +95,17 @@
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDebugDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Debug";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Debug\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -114,7 +115,7 @@
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/cpp_20_07_2018/builds/$(Configuration)/snake.exe E:/cpp_20_07_2018/snake/
+D:\CMake\bin\cmake.exe -E copy D:/c++/snek_cpp/builds/$(Configuration)/snake.exe D:/c++/snek_cpp/snake/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -129,8 +130,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/cpp_20_07_2018/builds/Debug/snake.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/cpp_20_07_2018/builds/Debug/snake.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/c++/snek_cpp/builds/Debug/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/c++/snek_cpp/builds/Debug/snake.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -139,7 +140,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>Release/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -149,6 +150,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="Release";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -157,10 +159,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"Release\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -170,7 +172,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/cpp_20_07_2018/builds/$(Configuration)/snake.exe E:/cpp_20_07_2018/snake/
+D:\CMake\bin\cmake.exe -E copy D:/c++/snek_cpp/builds/$(Configuration)/snake.exe D:/c++/snek_cpp/snake/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -185,8 +187,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/cpp_20_07_2018/builds/Release/snake.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/cpp_20_07_2018/builds/Release/snake.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/c++/snek_cpp/builds/Release/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/c++/snek_cpp/builds/Release/snake.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -195,7 +197,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>MinSizeRel/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <ExceptionHandling>Sync</ExceptionHandling>
@@ -205,6 +207,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="MinSizeRel";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
@@ -213,10 +216,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"MinSizeRel\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -226,7 +229,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/cpp_20_07_2018/builds/$(Configuration)/snake.exe E:/cpp_20_07_2018/snake/
+D:\CMake\bin\cmake.exe -E copy D:/c++/snek_cpp/builds/$(Configuration)/snake.exe D:/c++/snek_cpp/snake/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -241,8 +244,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>false</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/cpp_20_07_2018/builds/MinSizeRel/snake.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/cpp_20_07_2018/builds/MinSizeRel/snake.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/c++/snek_cpp/builds/MinSizeRel/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/c++/snek_cpp/builds/MinSizeRel/snake.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -251,7 +254,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">
     <ClCompile>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AssemblerListingLocation>RelWithDebInfo/</AssemblerListingLocation>
       <CompileAs>CompileAsCpp</CompileAs>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -262,16 +265,17 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <PrecompiledHeader>NotUsing</PrecompiledHeader>
       <RuntimeLibrary>MultiThreadedDLL</RuntimeLibrary>
       <RuntimeTypeInfo>true</RuntimeTypeInfo>
+      <UseFullPaths>false</UseFullPaths>
       <WarningLevel>Level3</WarningLevel>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR="RelWithDebInfo";%(PreprocessorDefinitions)</PreprocessorDefinitions>
       <ObjectFileName>$(IntDir)</ObjectFileName>
     </ClCompile>
     <ResourceCompile>
       <PreprocessorDefinitions>WIN32;_WINDOWS;NDEBUG;TW_STATIC;TW_NO_LIB_PRAGMA;TW_NO_DIRECT3D;GLEW_STATIC;_CRT_SECURE_NO_WARNINGS;CMAKE_INTDIR=\"RelWithDebInfo\";%(PreprocessorDefinitions)</PreprocessorDefinitions>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
     </ResourceCompile>
     <Midl>
-      <AdditionalIncludeDirectories>E:\cpp_20_07_2018\external\AntTweakBar-1.16\include;E:\cpp_20_07_2018\external\glfw-3.1.2\include;E:\cpp_20_07_2018\external\glm-0.9.7.1;E:\cpp_20_07_2018\external\glew-1.13.0\include;E:\cpp_20_07_2018\external\assimp-3.0.1270\include;E:\cpp_20_07_2018\external\bullet-2.81-rev2613\src;E:\cpp_20_07_2018\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>D:\c++\snek_cpp\external\AntTweakBar-1.16\include;D:\c++\snek_cpp\external\glfw-3.1.2\include;D:\c++\snek_cpp\external\glm-0.9.7.1;D:\c++\snek_cpp\external\glew-1.13.0\include;D:\c++\snek_cpp\external\assimp-3.0.1270\include;D:\c++\snek_cpp\external\bullet-2.81-rev2613\src;D:\c++\snek_cpp\.;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <OutputDirectory>$(ProjectDir)/$(IntDir)</OutputDirectory>
       <HeaderFileName>%(Filename).h</HeaderFileName>
       <TypeLibraryName>%(Filename).tlb</TypeLibraryName>
@@ -281,7 +285,7 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     <PostBuildEvent>
       <Message></Message>
       <Command>setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -E copy E:/cpp_20_07_2018/builds/$(Configuration)/snake.exe E:/cpp_20_07_2018/snake/
+D:\CMake\bin\cmake.exe -E copy D:/c++/snek_cpp/builds/$(Configuration)/snake.exe D:/c++/snek_cpp/snake/
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -296,8 +300,8 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
       <AdditionalOptions>%(AdditionalOptions) /machine:X86</AdditionalOptions>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <IgnoreSpecificDefaultLibraries>%(IgnoreSpecificDefaultLibraries)</IgnoreSpecificDefaultLibraries>
-      <ImportLibrary>E:/cpp_20_07_2018/builds/RelWithDebInfo/snake.lib</ImportLibrary>
-      <ProgramDataBaseFile>E:/cpp_20_07_2018/builds/RelWithDebInfo/snake.pdb</ProgramDataBaseFile>
+      <ImportLibrary>D:/c++/snek_cpp/builds/RelWithDebInfo/snake.lib</ImportLibrary>
+      <ProgramDataBaseFile>D:/c++/snek_cpp/builds/RelWithDebInfo/snake.pdb</ProgramDataBaseFile>
       <SubSystem>Console</SubSystem>
     </Link>
     <ProjectReference>
@@ -305,10 +309,10 @@ if %errorlevel% neq 0 goto :VCEnd</Command>
     </ProjectReference>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\CMakeLists.txt">
-      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule E:/cpp_20_07_2018/CMakeLists.txt</Message>
+    <CustomBuild Include="D:\c++\snek_cpp\CMakeLists.txt">
+      <Message Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -316,12 +320,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:/cpp_20_07_2018/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\cpp_20_07_2018\CMakeLists.txt;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;E:\cpp_20_07_2018\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">E:\cpp_20_07_2018\builds\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule E:/cpp_20_07_2018/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -329,12 +333,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:/cpp_20_07_2018/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\cpp_20_07_2018\CMakeLists.txt;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;E:\cpp_20_07_2018\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">E:\cpp_20_07_2018\builds\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule E:/cpp_20_07_2018/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -342,12 +346,12 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:/cpp_20_07_2018/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\cpp_20_07_2018\CMakeLists.txt;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;E:\cpp_20_07_2018\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">E:\cpp_20_07_2018\builds\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|Win32'">false</LinkObjects>
-      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule E:/cpp_20_07_2018/CMakeLists.txt</Message>
+      <Message Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt</Message>
       <Command Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">setlocal
-"C:\Program Files\CMake\bin\cmake.exe" -HE:/cpp_20_07_2018 -BE:/cpp_20_07_2018/builds --check-stamp-file E:/cpp_20_07_2018/builds/CMakeFiles/generate.stamp
+D:\CMake\bin\cmake.exe -SD:/c++/snek_cpp -BD:/c++/snek_cpp/builds --check-stamp-file D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp
 if %errorlevel% neq 0 goto :cmEnd
 :cmEnd
 endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
@@ -355,39 +359,45 @@ endlocal &amp; call :cmErrorLevel %errorlevel% &amp; goto :cmDone
 exit /b %1
 :cmDone
 if %errorlevel% neq 0 goto :VCEnd</Command>
-      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:/cpp_20_07_2018/CMakeLists.txt;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCXXInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeCommonLanguageInclude.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeGenericSystem.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeInitializeConfigs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeLanguageInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeRCInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInformation.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\CMakeSystemSpecificInitialize.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\CMakeCommonCompilerMacros.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Compiler\MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindOpenGL.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageHandleStandardArgs.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\FindPackageMessage.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-C.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC-CXX.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows-MSVC.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\Windows.cmake;C:\Program Files\CMake\share\cmake-3.12\Modules\Platform\WindowsPaths.cmake;E:\cpp_20_07_2018\CMakeLists.txt;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeCXXCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeRCCompiler.cmake;E:\cpp_20_07_2018\builds\CMakeFiles\3.12.0-rc3\CMakeSystem.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;E:\cpp_20_07_2018\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;E:\cpp_20_07_2018\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
-      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">E:\cpp_20_07_2018\builds\CMakeFiles\generate.stamp</Outputs>
+      <AdditionalInputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:/c++/snek_cpp/CMakeLists.txt;D:\CMake\share\cmake-3.13\Modules\CMakeCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCCompilerABI.c;D:\CMake\share\cmake-3.13\Modules\CMakeCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeCXXCompilerABI.cpp;D:\CMake\share\cmake-3.13\Modules\CMakeCXXInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCommonLanguageInclude.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeCompilerIdDetection.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompileFeatures.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerABI.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineCompilerId.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeDetermineSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeFindBinUtils.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeGenericSystem.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeInitializeConfigs.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeLanguageInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeParseImplicitLinkInfo.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeRCCompiler.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeRCInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystem.cmake.in;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInformation.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeSystemSpecificInitialize.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCXXCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestCompilerCommon.cmake;D:\CMake\share\cmake-3.13\Modules\CMakeTestRCCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ADSP-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\ARMCC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\AppleClang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Borland-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Bruce-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\CMakeCommonCompilerMacros.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Clang-DetermineCompilerInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Comeau-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Compaq-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Cray-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Embarcadero-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Fujitsu-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GHS-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\GNU-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\HP-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IAR-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-C-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\IBMCPP-CXX-DetermineVersionInternal.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Intel-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MIPSpro-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX-FeatureTests.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\MSVC-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\NVIDIA-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\OpenWatcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PGI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\PathScale-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SCO-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SDCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\SunPro-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TI-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\TinyCC-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\VisualAge-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\Watcom-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\XL-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-C-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\Compiler\zOS-CXX-DetermineCompiler.cmake;D:\CMake\share\cmake-3.13\Modules\CompilerId\VS-10.vcxproj.in;D:\CMake\share\cmake-3.13\Modules\FindOpenGL.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageHandleStandardArgs.cmake;D:\CMake\share\cmake-3.13\Modules\FindPackageMessage.cmake;D:\CMake\share\cmake-3.13\Modules\Internal\FeatureTesting.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-Determine-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-C.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC-CXX.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows-MSVC.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\Windows.cmake;D:\CMake\share\cmake-3.13\Modules\Platform\WindowsPaths.cmake;D:\c++\snek_cpp\CMakeLists.txt;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeCXXCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeRCCompiler.cmake;D:\c++\snek_cpp\builds\CMakeFiles\3.13.0-rc1\CMakeSystem.cmake;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.c;D:\c++\snek_cpp\builds\CMakeFiles\feature_tests.cxx;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CleanDirectoryList.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\CreateLaunchers.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\ListCombinations.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\MSVCMultipleProcessCompile.cmake;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\targetlauncher.cmd.in;D:\c++\snek_cpp\external\rpavlik-cmake-modules-fe2273\launcher-templates\vcxproj.user.in;D:\c++\snek_cpp\CMakeLists.txt;%(AdditionalInputs)</AdditionalInputs>
+      <Outputs Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">D:\c++\snek_cpp\builds\CMakeFiles\generate.stamp</Outputs>
       <LinkObjects Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|Win32'">false</LinkObjects>
     </CustomBuild>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\SnakeTheGame.cpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\common\shader.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\common\shader.hpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\apple.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\apple.hpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\controls.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\controls.hpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.hpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\snake.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\snake.hpp" />
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.cpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.hpp" />
-    <ClInclude Include="E:\cpp_20_07_2018\snake\externalLibraries\stb_image.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\SnakeTheGame.cpp" />
+    <ClCompile Include="D:\c++\snek_cpp\common\shader.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\common\shader.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\apple.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\apple.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\controls.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\controls.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\fragmentShaders.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\fragmentShaders.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\snake.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\snake.hpp" />
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\vertexShaders.cpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\vertexShaders.hpp" />
+    <ClInclude Include="D:\c++\snek_cpp\snake\externalLibraries\stb_image.hpp" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\ZERO_CHECK.vcxproj">
-      <Project>{5B4EE91F-E96C-30DE-B962-5BC51CE725D5}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\ZERO_CHECK.vcxproj">
+      <Project>{B3A85846-D850-36F3-AC4B-9488B5E3DA26}</Project>
       <Name>ZERO_CHECK</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\GLEW_1130.vcxproj">
-      <Project>{E5E8CD3B-1ED3-3685-ACB2-24245C00D84F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\GLEW_1130.vcxproj">
+      <Project>{B08032AD-F79E-32F6-B278-8D437A3728E2}</Project>
       <Name>GLEW_1130</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
-    <ProjectReference Include="E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\glfw.vcxproj">
-      <Project>{5ED00990-A93A-3DD0-8AB0-85189688AE7F}</Project>
+    <ProjectReference Include="D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\glfw.vcxproj">
+      <Project>{48893C1A-53CC-3E8E-82B0-853F70D85709}</Project>
       <Name>glfw</Name>
+      <ReferenceOutputAssembly>false</ReferenceOutputAssembly>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

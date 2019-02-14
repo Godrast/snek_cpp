@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018/external/assimp-3.0.1270/code
+# Install script for directory: D:/c++/snek_cpp/external/assimp-3.0.1270/code
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -34,13 +34,13 @@ endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xlibassimp3.0-r1270-OGLtutsx" OR NOT CMAKE_INSTALL_COMPONENT)
   if("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Dd][Ee][Bb][Uu][Gg])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/Debug/assimp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/Debug/assimp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ee][Aa][Ss][Ee])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/Release/assimp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/Release/assimp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Mm][Ii][Nn][Ss][Ii][Zz][Ee][Rr][Ee][Ll])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/MinSizeRel/assimp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/MinSizeRel/assimp.lib")
   elseif("${CMAKE_INSTALL_CONFIG_NAME}" MATCHES "^([Rr][Ee][Ll][Ww][Ii][Tt][Hh][Dd][Ee][Bb][Ii][Nn][Ff][Oo])$")
-    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/RelWithDebInfo/assimp.lib")
+    file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib" TYPE STATIC_LIBRARY FILES "D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/RelWithDebInfo/assimp.lib")
   endif()
 endif()
 
@@ -54,45 +54,45 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp" TYPE FILE FILES
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/anim.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/camera.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/color4.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/config.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/defs.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/light.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/material.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/material.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/scene.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/texture.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/types.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/version.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/anim.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/ai_assert.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/camera.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/color4.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/color4.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/config.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/defs.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/cfileio.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/light.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/material.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/material.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/matrix3x3.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/matrix4x4.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/mesh.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/postprocess.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/quaternion.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/quaternion.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/scene.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/texture.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/types.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/vector2.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/vector2.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/vector3.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/vector3.inl"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/version.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/cimport.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/importerdesc.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/Importer.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/DefaultLogger.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/ProgressHandler.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/IOStream.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/IOSystem.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/Logger.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/LogStream.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/NullLogger.hpp"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/cexport.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/Exporter.hpp"
     )
 endif()
 
@@ -106,9 +106,9 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
     message(FATAL_ERROR "ABSOLUTE path INSTALL DESTINATION forbidden (by caller): ${CMAKE_ABSOLUTE_DESTINATION_FILES}")
   endif()
 file(INSTALL DESTINATION "/assimp/Compiler" TYPE FILE FILES
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
-    "E:/cpp_20_07_2018/external/assimp-3.0.1270/code/pstdint.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/Compiler/pushpack1.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/../include/assimp/Compiler/poppack1.h"
+    "D:/c++/snek_cpp/external/assimp-3.0.1270/code/pstdint.h"
     )
 endif()
 

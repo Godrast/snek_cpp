@@ -1,3 +1,19 @@
-﻿  snake.cpp
-e:\cpp_20_07_2018\snake\classes\snake.cpp(46): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
-  snake.vcxproj -> E:\cpp_20_07_2018\builds\Release\snake.exe
+﻿  Building Custom Rule D:/c++/snek_cpp/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/CMakeFiles/generate.stamp is up-to-date.
+  SnakeTheGame.cpp
+  shader.cpp
+  apple.cpp
+  controls.cpp
+D:\c++\snek_cpp\snake\SnakeTheGame.cpp(213): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\apple.cpp(5): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+D:\c++\snek_cpp\snake\classes\apple.cpp(20): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\apple.cpp(21): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\controls.cpp(92): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\controls.cpp(93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+  fragmentShaders.cpp
+  snake.cpp
+  vertexShaders.cpp
+D:\c++\snek_cpp\snake\classes\snake.cpp(50): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\snake.cpp(77): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+D:\c++\snek_cpp\snake\classes\snake.cpp(153): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  snake.vcxproj -> D:\c++\snek_cpp\builds\Release\snake.exe

@@ -1,66 +1,66 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\SnakeTheGame.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\SnakeTheGame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\common\shader.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\common\shader.cpp">
       <Filter>common</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\apple.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\apple.cpp">
       <Filter>classes</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\controls.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\controls.cpp">
       <Filter>classes</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\fragmentShaders.cpp">
       <Filter>classes</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\snake.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\snake.cpp">
       <Filter>classes</Filter>
     </ClCompile>
-    <ClCompile Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.cpp">
+    <ClCompile Include="D:\c++\snek_cpp\snake\classes\vertexShaders.cpp">
       <Filter>classes</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="E:\cpp_20_07_2018\common\shader.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\common\shader.hpp">
       <Filter>common</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\apple.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\apple.hpp">
       <Filter>classes</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\controls.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\controls.hpp">
       <Filter>classes</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\fragmentShaders.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\fragmentShaders.hpp">
       <Filter>classes</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\snake.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\snake.hpp">
       <Filter>classes</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\classes\vertexShaders.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\classes\vertexShaders.hpp">
       <Filter>classes</Filter>
     </ClInclude>
-    <ClInclude Include="E:\cpp_20_07_2018\snake\externalLibraries\stb_image.hpp">
+    <ClInclude Include="D:\c++\snek_cpp\snake\externalLibraries\stb_image.hpp">
       <Filter>externalLib</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <CustomBuild Include="E:\cpp_20_07_2018\CMakeLists.txt" />
+    <CustomBuild Include="D:\c++\snek_cpp\CMakeLists.txt" />
   </ItemGroup>
   <ItemGroup>
     <Filter Include="Source Files">
-      <UniqueIdentifier>{6FED20F5-9510-329F-B8E7-21733EA54C0B}</UniqueIdentifier>
+      <UniqueIdentifier>{48F9F210-89CA-384B-A660-DF098FA1B43B}</UniqueIdentifier>
     </Filter>
     <Filter Include="classes">
-      <UniqueIdentifier>{BA53051A-C99B-3DF6-89D2-0F976201A38B}</UniqueIdentifier>
+      <UniqueIdentifier>{2FEAD1F9-A687-37D5-B312-26CB066AB255}</UniqueIdentifier>
     </Filter>
     <Filter Include="common">
-      <UniqueIdentifier>{1DD14B83-5AAE-3BD1-8678-092DC97B5DAC}</UniqueIdentifier>
+      <UniqueIdentifier>{0686258E-E15C-3F9F-847B-295C0F03CB51}</UniqueIdentifier>
     </Filter>
     <Filter Include="externalLib">
-      <UniqueIdentifier>{82C5027D-1881-3275-9156-D525B2D21F28}</UniqueIdentifier>
+      <UniqueIdentifier>{7EB6C0EE-00FD-351C-BFEE-3C60347B7093}</UniqueIdentifier>
     </Filter>
   </ItemGroup>
 </Project>

@@ -1,5 +1,6 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/CMakeFiles/generate.stamp is up-to-date.
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.CppBuild.targets(391,5): warning MSB8028: The intermediate directory (ANTTWEAKBAR_116_OGLCORE_GLFW.dir\Release\) contains files shared from another project (ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Building Custom Rule D:/c++/snek_cpp/external/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/CMakeFiles/generate.stamp is up-to-date.
   LoadOGL.cpp
   LoadOGLCore.cpp
   TwColors.cpp
@@ -7,24 +8,24 @@
   TwFonts.cpp
   TwMgr.cpp
   TwOpenGL.cpp
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6225): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6226): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6227): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6228): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6229): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6230): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6231): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6232): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6233): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6234): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6235): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6236): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6237): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6239): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6252): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6258): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
+D:\c++\snek_cpp\external\AntTweakBar-1.16\src\TwMgr.cpp(6267): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
   TwOpenGLCore.cpp
   TwPrecomp.cpp
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6225): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6226): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6227): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6228): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6229): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6230): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6231): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6232): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6233): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6234): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6235): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6236): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6237): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6239): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6252): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6258): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
-e:\cpp_20_07_2018\external\anttweakbar-1.16\src\twmgr.cpp(6267): warning C4302: 'type cast': truncation from 'LPSTR' to 'WORD'
   TwEventGLFW.c
-  ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> E:\cpp_20_07_2018\builds\external\Release\ANTTWEAKBAR_116_OGLCORE_GLFW.lib
+  ANTTWEAKBAR_116_OGLCORE_GLFW.vcxproj -> D:\c++\snek_cpp\builds\external\Release\ANTTWEAKBAR_116_OGLCORE_GLFW.lib

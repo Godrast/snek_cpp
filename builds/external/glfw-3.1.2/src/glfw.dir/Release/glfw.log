@@ -1,13 +1,15 @@
-﻿  context.c
+﻿  Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/src/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/glfw-3.1.2/src/CMakeFiles/generate.stamp is up-to-date.
+  context.c
   init.c
   input.c
   monitor.c
-  wgl_context.c
+  window.c
   win32_init.c
   win32_monitor.c
   win32_time.c
   win32_tls.c
   win32_window.c
-  window.c
   winmm_joystick.c
-  glfw.vcxproj -> E:\cpp_20_07_2018\builds\external\glfw-3.1.2\src\Release\glfw3.lib
+  wgl_context.c
+  glfw.vcxproj -> D:\c++\snek_cpp\builds\external\glfw-3.1.2\src\Release\glfw3.lib

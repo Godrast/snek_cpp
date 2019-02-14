@@ -1,4 +1,4 @@
-# Install script for directory: E:/cpp_20_07_2018/external/assimp-3.0.1270/contrib/zlib
+# Install script for directory: D:/c++/snek_cpp/external/assimp-3.0.1270/contrib/zlib
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

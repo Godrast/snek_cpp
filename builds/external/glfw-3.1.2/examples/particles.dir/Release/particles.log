@@ -1,1 +1,6 @@
-﻿
+﻿  Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/examples/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/glfw-3.1.2/examples/CMakeFiles/generate.stamp is up-to-date.
+  particles.c
+  tinycthread.c
+  getopt.c
+  particles.vcxproj -> D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\Release\particles.exe

@@ -1,5 +1,5 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/assimp-3.0.1270/code/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/assimp-3.0.1270/code/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule D:/c++/snek_cpp/external/assimp-3.0.1270/code/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/assimp-3.0.1270/code/CMakeFiles/generate.stamp is up-to-date.
   Assimp.cpp
   AssimpPCH.cpp
   BaseImporter.cpp
@@ -129,4 +129,4 @@
   ConvertUTF.c
   ioapi.c
   unzip.c
-  assimp.vcxproj -> E:\cpp_20_07_2018\builds\external\assimp-3.0.1270\code\Release\assimp.lib
+  assimp.vcxproj -> D:\c++\snek_cpp\builds\external\assimp-3.0.1270\code\Release\assimp.lib

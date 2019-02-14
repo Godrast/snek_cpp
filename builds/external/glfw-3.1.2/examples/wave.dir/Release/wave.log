@@ -1,4 +1,4 @@
-﻿  Building Custom Rule E:/cpp_20_07_2018/external/glfw-3.1.2/examples/CMakeLists.txt
-  CMake does not need to re-run because E:/cpp_20_07_2018/builds/external/glfw-3.1.2/examples/CMakeFiles/generate.stamp is up-to-date.
+﻿  Building Custom Rule D:/c++/snek_cpp/external/glfw-3.1.2/examples/CMakeLists.txt
+  CMake does not need to re-run because D:/c++/snek_cpp/builds/external/glfw-3.1.2/examples/CMakeFiles/generate.stamp is up-to-date.
   wave.c
-  wave.vcxproj -> E:\cpp_20_07_2018\builds\external\glfw-3.1.2\examples\Release\wave.exe
+  wave.vcxproj -> D:\c++\snek_cpp\builds\external\glfw-3.1.2\examples\Release\wave.exe
